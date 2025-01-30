@@ -790,6 +790,14 @@ blockquote {
   transition: 0.4s all;
 }
 
+    .timeline-container .vertical-scrollable-timeline li .icon-holder img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+
 .timeline-container .vertical-scrollable-timeline li .icon-holder::before {
   content: "";
   width: 80px;
