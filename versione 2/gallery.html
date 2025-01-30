@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<title>Studio Sfera - Gallery</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<style>
+		#slider {
+			width: 700px;
+			height: 400px;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.slide {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		}
+
+		.active {
+			opacity: 1;
+		}
+	</style>
+</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+			<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="servizi.html">Servizi</a></li>
+						<li><a href="settori.html">Settori</a></li>
+						<li><a href="team.html">Team</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="altro.html">Altro</a></li>
+					</ul>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main" class="alt">
+
+				<!-- One -->
+				<article id="gallery">
+					<h3 class="major">Gallery</h3>
+					<div id="slider">
+						<img class="slide active" src="images/show/118 _nord1.jpg" alt="Immagine 1">
+						<img class="slide" src="images/show/118_nord2.jpg" alt="Immagine 2">
+						<img class="slide" src="images/show/118_nord3 ridotta.jpg" alt="Immagine 3">
+						<img class="slide" src="images/show/118_nord3.jpg" alt="Immagine 4">
+						<img class="slide" src="images/show/151 Sud.jpg" alt="Immagine 5">
+						<img class="slide" src="images/show/151 sud1.jpg" alt="Immagine 6">
+						<img class="slide" src="images/show/158_notte.jpg" alt="Immagine 8">
+						<img class="slide" src="images/show/182 sud  2.jpeg" alt="Immagine 9">
+						<img class="slide" src="images/show/182_nord.jpg" alt="Immagine 10">
+						<img class="slide" src="images/show/182_sud.jpg" alt="Immagine 11">
+						<img class="slide" src="images/show/189_ante.jpg" alt="Immagine 12">
+					</div>
+
+				</article>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<script>
+	let index = 0;
+	const slides = document.querySelectorAll(".slide");
+
+	function nextSlide() {
+		slides[index].classList.remove("active");
+		index = (index + 1) % slides.length;
+		slides[index].classList.add("active");
+	}
+
+	setInterval(nextSlide, 3000); // Cambia immagine ogni 3 secondi
+		</script>
+
+	</body>
+</html>
