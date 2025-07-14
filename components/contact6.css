@@ -157,3 +157,9 @@
     flex-direction: column;
   }
 }
+ 
+@media(max-width: 479px) {
+  .contact6-container {
+    width: auto;
+  }
+}

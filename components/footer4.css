@@ -72,6 +72,9 @@
 }
  
 @media(max-width: 479px) {
+  .footer4-footer7 {
+    width: auto;
+  }
   .footer4-max-width {
     gap: var(--dl-layout-space-oneandhalfunits);
   }

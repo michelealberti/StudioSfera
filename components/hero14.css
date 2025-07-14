@@ -64,6 +64,8 @@
   display: inline-block;
 }
  
+
+ 
 @media(max-width: 991px) {
   .hero14-max-width {
     flex-direction: column;
@@ -82,5 +84,11 @@
 @media(max-width: 767px) {
   .hero14-video {
     height: auto;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .hero14root-class-name {
+    width: auto;
   }
 }

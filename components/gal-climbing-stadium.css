@@ -211,6 +211,9 @@
 }
  
 @media(max-width: 479px) {
+  .gal-climbing-stadium-gallery3 {
+    width: auto;
+  }
   .gal-climbing-stadium-content1 {
     gap: var(--dl-layout-space-oneandhalfunits);
   }

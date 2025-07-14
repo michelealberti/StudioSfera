@@ -151,3 +151,9 @@
     width: 100%;
   }
 }
+ 
+@media(max-width: 479px) {
+  .contact10-container1 {
+    width: auto;
+  }
+}

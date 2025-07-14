@@ -471,6 +471,9 @@
 }
  
 @media(max-width: 479px) {
+  .team-collaborators-team8 {
+    width: auto;
+  }
   .team-collaborators-placeholder-image1 {
     height: 450px;
   }

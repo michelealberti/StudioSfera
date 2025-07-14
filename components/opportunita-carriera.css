@@ -4,10 +4,9 @@
  
 .banner1-container1 {
   gap: var(--dl-layout-space-unit);
-  width: 100%;
-  max-width: 1199px;
-  min-height: 158px;
-  display: flex;    
+  width: 1199px;
+  height: 158px;
+  display: flex;
   position: relative;
   align-items: center;
 }
@@ -45,9 +44,6 @@
   .banner1root-class-name {
     width: auto;
   }
-  .banner1-container1 {
-    padding: var(--dl-layout-space-unit);
-  }
 }
  
 @media(max-width: 767px) {
@@ -60,9 +56,6 @@
   .banner1root-class-name {
     width: auto;
     align-self: flex-start;
-  }
-  .banner1-container1 {
-    padding: var(--dl-layout-space-halfunit);
   }
 }
 
@@ -79,7 +72,6 @@
   flex-shrink: 0;
   flex-direction: row;
   justify-content: center;
-  padding: var(--dl-layout-space-unit) 0;
 }
  
 .features7-max-width {
@@ -168,8 +160,11 @@
   .features7-content3 {
     align-items: center;
   }
+}
+ 
+@media(max-width: 479px) {
   .features7-layout226 {
-    padding: var(--dl-layout-space-unit);
+    width: auto;
   }
 }
 
@@ -186,7 +181,6 @@
   align-items: center;
   flex-shrink: 0;
   flex-direction: column;
-  padding: var(--dl-layout-space-unit) 0;
 }
  
 .features1-max-width {
@@ -227,9 +221,6 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .features1-layout251 {
-    padding: var(--dl-layout-space-unit);
-  }
 }
  
 @media(max-width: 767px) {
@@ -239,6 +230,9 @@
 }
  
 @media(max-width: 479px) {
+  .features1-layout251 {
+    width: auto;
+  }
   .features1-actions {
     width: 100%;
     flex-direction: column;
@@ -246,14 +240,11 @@
   .features1-button {
     width: 100%;
   }
-  .features1-layout251 {
-    padding: var(--dl-layout-space-halfunit);
-  }
 }
 
 .opportunita-carriera-container {
   width: 100%;
-  min-height: 100vh;
+  height: 1314px;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -336,6 +327,7 @@
  
 @media(max-width: 479px) {
   .opportunita-carriera-container {
-    min-height: unset;
+    width: auto;
+    height: 1832px;
   }
 }

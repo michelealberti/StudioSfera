@@ -132,6 +132,14 @@
   height: 664px;
 }
  
+.contatti1-fragment19 {
+  display: contents;
+}
+ 
+.contatti1-text19 {
+  display: inline-block;
+}
+ 
 .contatti1-fragment18 {
   display: contents;
 }
@@ -196,11 +204,11 @@
   display: inline-block;
 }
  
-.contatti1-fragment19 {
+.contatti1-fragment20 {
   display: contents;
 }
  
-.contatti1-text19 {
+.contatti1-text32 {
   display: inline-block;
 }
  
@@ -212,19 +220,17 @@
   display: inline-block;
 }
  
-.contatti1-fragment20 {
-  display: contents;
-}
- 
-.contatti1-text20 {
-  display: inline-block;
-}
- 
 @media(max-width: 991px) {
   .contact11-content2 {
     position: relative;
     align-items: flex-start;
     flex-direction: column;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .contact11-container {
+    width: auto;
   }
 }
 
@@ -321,7 +327,7 @@
   display: contents;
 }
  
-.contatti1-text20 {
+.contatti1-text32 {
   display: inline-block;
 }
  

@@ -91,3 +91,14 @@
 .content-list1-text17 {
   display: inline-block;
 }
+ 
+
+ 
+@media(max-width: 479px) {
+  .content-list1-container {
+    width: auto;
+  }
+  .content-list1root-class-name {
+    width: auto;
+  }
+}

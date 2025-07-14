@@ -211,6 +211,9 @@
 }
  
 @media(max-width: 479px) {
+  .gal-interventi-vari-max-width {
+    width: auto;
+  }
   .gal-interventi-vari-content1 {
     gap: var(--dl-layout-space-oneandhalfunits);
   }

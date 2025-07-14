@@ -118,6 +118,8 @@
   display: inline-block;
 }
  
+
+ 
 @media(max-width: 991px) {
   .gal-ciclovia-del-garda-content1 {
     align-items: center;
@@ -126,6 +128,15 @@
   .gal-ciclovia-del-garda-content2 {
     align-items: center;
     flex-direction: column;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .gal-ciclovia-del-garda-gallery3 {
+    width: auto;
+  }
+  .gal-ciclovia-del-gardaroot-class-name {
+    width: auto;
   }
 }
 
@@ -346,6 +357,9 @@
 }
  
 @media(max-width: 479px) {
+  .gal-climbing-stadium-gallery3 {
+    width: auto;
+  }
   .gal-climbing-stadium-content1 {
     gap: var(--dl-layout-space-oneandhalfunits);
   }
@@ -571,6 +585,9 @@
 }
  
 @media(max-width: 479px) {
+  .gal-interventi-vari-max-width {
+    width: auto;
+  }
   .gal-interventi-vari-content1 {
     gap: var(--dl-layout-space-oneandhalfunits);
   }

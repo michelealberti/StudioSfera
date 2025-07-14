@@ -96,3 +96,9 @@
     align-items: center;
   }
 }
+ 
+@media(max-width: 479px) {
+  .features7-layout226 {
+    width: auto;
+  }
+}

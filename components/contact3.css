@@ -235,6 +235,9 @@
 }
  
 @media(max-width: 479px) {
+  .contact3-contact20 {
+    width: auto;
+  }
   .contact3-row {
     align-items: stretch;
   }

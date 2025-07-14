@@ -254,3 +254,9 @@
     flex-direction: column;
   }
 }
+ 
+@media(max-width: 479px) {
+  .contact4-contact20 {
+    width: auto;
+  }
+}

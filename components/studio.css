@@ -228,6 +228,9 @@
 }
  
 @media(max-width: 479px) {
+  .gallery8-gallery3 {
+    width: auto;
+  }
   .gallery8-slider {
     height: 440px;
   }

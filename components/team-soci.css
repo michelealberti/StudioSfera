@@ -384,6 +384,9 @@
 }
  
 @media(max-width: 479px) {
+  .team-soci-team8 {
+    width: auto;
+  }
   .team-soci-placeholder-image1 {
     height: 450px;
   }
