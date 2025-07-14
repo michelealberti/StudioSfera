@@ -399,7 +399,8 @@
   .team-soci-placeholder-image4 {
     height: 450px;
   }
-  .team-sociroot-class-name {
+  /* Remove or comment this line to make the section visible on mobile */
+  /* .team-sociroot-class-name {
     display: none;
-  }
+  } */
 }
