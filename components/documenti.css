@@ -97,13 +97,20 @@
 }
 
 .documenti-container {
-  width: 100%;
-  height: 678px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
+    width: 100%;
+    min-height: 678px; /* Change from fixed height to minimum height */
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media(max-width: 479px) {
+    .documenti-container {
+        min-height: 983px; /* Change from fixed height to minimum height */
+        height: auto; /* Allow the container to expand with content */
+    }
 }
  
 .documenti-fragment1 {
