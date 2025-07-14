@@ -938,7 +938,7 @@
                                                 </div>
                                                 <div class="team-collaborators-card7">
                                                     <img alt="Image of John Doe, Architect"
-                                                         src="public/Team/img_9033-600w.jpg"
+                                                         src="public/Team/img_9033-600wok.JPG"
                                                          class="thq-img-ratio-1-1 team-collaborators-placeholder-image7" />
                                                     <div class="team-collaborators-content19">
                                                         <div class="team-collaborators-title7">
@@ -1708,4 +1708,182 @@
     </div>
     <script defer="" src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Create modal elements
+        const modalOverlay = document.createElement('div');
+        modalOverlay.className = 'modal-overlay';
+
+        const modalContent = document.createElement('div');
+        modalContent.className = 'modal-content';
+
+        const modalClose = document.createElement('span');
+        modalClose.className = 'modal-close';
+        modalClose.innerHTML = '&times;';
+
+        const modalImage = document.createElement('img');
+        modalImage.className = 'modal-image';
+
+        const modalInfo = document.createElement('div');
+        modalInfo.className = 'modal-info';
+
+        modalContent.appendChild(modalClose);
+        modalContent.appendChild(modalImage);
+        modalContent.appendChild(modalInfo);
+        modalOverlay.appendChild(modalContent);
+        document.body.appendChild(modalOverlay);
+
+        // Add styles for modal
+        const modalStyle = document.createElement('style');
+        modalStyle.textContent = `
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+        
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .modal-content {
+            position: relative;
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            width: 80%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transform: scale(0.8);
+            opacity: 0;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+        
+        .modal-overlay.active .modal-content {
+            transform: scale(1);
+            opacity: 1;
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #333;
+        }
+        
+        .modal-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+        
+        .modal-info {
+            text-align: center;
+        }
+        
+        .modal-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .modal-role {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .modal-title {
+            font-size: 16px;
+            color: #888;
+        }
+    `;
+        document.head.appendChild(modalStyle);
+
+        // Add click event to team cards
+        const teamCards = document.querySelectorAll('.team-soci-card1, .team-soci-card2, .team-soci-card3, .team-soci-card4');
+
+        teamCards.forEach(card => {
+            card.addEventListener('click', function () {
+                // Get image source
+                const imgSrc = this.querySelector('img').src;
+
+                // Get name, role, and title
+                const name = this.querySelector('[class*="team-soci-text"][class*="3"], [class*="team-soci-text"][class*="6"], [class*="team-soci-text"][class*="9"], [class*="team-soci-text"][class*="2"]').textContent.trim();
+                const role = this.querySelector('[class*="team-soci-text"][class*="4"], [class*="team-soci-text"][class*="7"], [class*="team-soci-text"][class*="0"], [class*="team-soci-text"][class*="3"]').textContent.trim();
+                const title = this.querySelector('[class*="team-soci-text"][class*="5"], [class*="team-soci-text"][class*="8"], [class*="team-soci-text"][class*="1"], [class*="team-soci-text"][class*="4"]').textContent.trim();
+
+                // Fill modal with data
+                modalImage.src = imgSrc;
+
+                modalInfo.innerHTML = `
+                <div class="modal-name">${name}</div>
+                <div class="modal-role">${role}</div>
+                <div class="modal-title">${title}</div>
+            `;
+
+                // Show modal
+                modalOverlay.classList.add('active');
+            });
+        });
+
+        // Close modal when clicking on the close button
+        modalClose.addEventListener('click', function () {
+            modalOverlay.classList.remove('active');
+        });
+
+        // Close modal when clicking outside
+        modalOverlay.addEventListener('click', function (event) {
+            if (event.target === modalOverlay) {
+                modalOverlay.classList.remove('active');
+            }
+        });
+
+        // Add the same functionality to team collaborators cards
+        const collaboratorCards = document.querySelectorAll('.team-collaborators-card1, .team-collaborators-card2, .team-collaborators-card3, .team-collaborators-card4, .team-collaborators-card5, .team-collaborators-card6, .team-collaborators-card7');
+
+        collaboratorCards.forEach(card => {
+            card.addEventListener('click', function () {
+                // Get image source
+                const imgSrc = this.querySelector('img').src;
+
+                // Get name and role for collaborators (they don't have title)
+                const name = this.querySelector('[class*="team-collaborators-text"][class*="3"], [class*="team-collaborators-text"][class*="5"], [class*="team-collaborators-text"][class*="7"], [class*="team-collaborators-text"][class*="9"], [class*="team-collaborators-text"][class*="1"], [class*="team-collaborators-text"][class*="3"], [class*="team-collaborators-text"][class*="5"]').textContent.trim();
+                const role = this.querySelector('[class*="team-collaborators-text"][class*="4"], [class*="team-collaborators-text"][class*="6"], [class*="team-collaborators-text"][class*="8"], [class*="team-collaborators-text"][class*="0"], [class*="team-collaborators-text"][class*="2"], [class*="team-collaborators-text"][class*="4"], [class*="team-collaborators-text"][class*="6"]').textContent.trim();
+
+                // Fill modal with data
+                modalImage.src = imgSrc;
+
+                modalInfo.innerHTML = `
+                <div class="modal-name">${name}</div>
+                <div class="modal-role">${role}</div>
+            `;
+
+                // Show modal
+                modalOverlay.classList.add('active');
+            });
+        });
+    });
+</script>
 </html>
+
+
