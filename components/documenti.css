@@ -1,0 +1,179 @@
+.content-list1-wrapper {
+  display: contents;
+}
+ 
+.content-list1-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.content-list1-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-layout-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.content-list1-content {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.content-list1-ul {
+  align-items: flex-start;
+}
+ 
+.content-list1-heading1 {
+  align-self: flex-start;
+}
+ 
+.documenti-fragment4 {
+  display: contents;
+}
+ 
+.documenti-text22 {
+  display: inline-block;
+}
+ 
+.documenti-fragment5 {
+  display: contents;
+}
+ 
+.documenti-text23 {
+  display: inline-block;
+}
+ 
+.documenti-fragment3 {
+  display: contents;
+}
+ 
+.documenti-text21 {
+  display: inline-block;
+}
+ 
+.documenti-fragment1 {
+  display: contents;
+}
+ 
+.documenti-text10 {
+  display: inline-block;
+}
+ 
+.documenti-fragment6 {
+  display: contents;
+}
+ 
+.documenti-text24 {
+  display: inline-block;
+}
+ 
+.documenti-fragment7 {
+  display: contents;
+}
+ 
+.documenti-text25 {
+  display: inline-block;
+}
+ 
+.documenti-fragment8 {
+  display: contents;
+}
+ 
+.documenti-text26 {
+  display: inline-block;
+}
+ 
+.documenti-fragment2 {
+  display: contents;
+}
+ 
+.documenti-text11 {
+  display: inline-block;
+}
+
+.documenti-container {
+  width: 100%;
+  height: 678px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.documenti-fragment1 {
+  display: contents;
+}
+ 
+.documenti-text10 {
+  display: inline-block;
+}
+ 
+.documenti-fragment2 {
+  display: contents;
+}
+ 
+.documenti-text11 {
+  display: inline-block;
+}
+ 
+.documenti-fragment3 {
+  display: contents;
+}
+ 
+.documenti-text21 {
+  display: inline-block;
+}
+ 
+.documenti-fragment4 {
+  display: contents;
+}
+ 
+.documenti-text22 {
+  display: inline-block;
+}
+ 
+.documenti-fragment5 {
+  display: contents;
+}
+ 
+.documenti-text23 {
+  display: inline-block;
+}
+ 
+.documenti-fragment6 {
+  display: contents;
+}
+ 
+.documenti-text24 {
+  display: inline-block;
+}
+ 
+.documenti-fragment7 {
+  display: contents;
+}
+ 
+.documenti-text25 {
+  display: inline-block;
+}
+ 
+.documenti-fragment8 {
+  display: contents;
+}
+ 
+.documenti-text26 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 479px) {
+  .documenti-container {
+    height: 983px;
+  }
+}

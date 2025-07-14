@@ -1,0 +1,625 @@
+.gal-ciclovia-del-garda-wrapper {
+  display: contents;
+}
+ 
+.gal-ciclovia-del-garda-gallery3 {
+  gap: var(--dl-layout-space-fiveunits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-ciclovia-del-garda-max-width {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gal-ciclovia-del-garda-section-title {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-ciclovia-del-garda-text1 {
+  text-align: center;
+}
+ 
+.gal-ciclovia-del-garda-text2 {
+  text-align: center;
+}
+ 
+.gal-ciclovia-del-garda-content1 {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-content2 {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gallery-fragment1 {
+  display: contents;
+}
+ 
+.gallery-text1 {
+  display: inline-block;
+}
+ 
+.gallery-fragment2 {
+  display: contents;
+}
+ 
+.gallery-text4 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .gal-ciclovia-del-garda-content1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gal-ciclovia-del-garda-content2 {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.gal-climbing-stadium-wrapper {
+  display: contents;
+}
+ 
+.gal-climbing-stadium-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-climbing-stadium-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gal-climbing-stadium-section-title {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-climbing-stadium-text1 {
+  text-align: center;
+}
+ 
+.gal-climbing-stadium-content1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image11 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-climbing-stadium-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image21 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-climbing-stadium-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image31 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gal-climbing-stadium-container4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image32 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gal-climbing-stadium-content2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-container5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image12 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-climbing-stadium-container6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image22 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-climbing-stadium-container7 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image33 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gal-climbing-stadium-container8 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image34 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gallery-fragment3 {
+  display: contents;
+}
+ 
+.gallery-text5 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .gal-climbing-stadium-content1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gal-climbing-stadium-image11 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image21 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image31 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image32 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-content2 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gal-climbing-stadium-image12 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image22 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image33 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image34 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .gal-climbing-stadium-content1 {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .gal-climbing-stadium-content2 {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+}
+
+.gal-interventi-vari-wrapper {
+  display: contents;
+}
+ 
+.gal-interventi-vari-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-interventi-vari-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gal-interventi-vari-section-title {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-interventi-vari-text1 {
+  text-align: center;
+}
+ 
+.gal-interventi-vari-content1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-interventi-vari-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-interventi-vari-image11 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-interventi-vari-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-interventi-vari-image21 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-interventi-vari-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-interventi-vari-image31 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gal-interventi-vari-container4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-interventi-vari-image32 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gal-interventi-vari-content2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-interventi-vari-container5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-interventi-vari-image12 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-interventi-vari-container6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-interventi-vari-image22 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-interventi-vari-container7 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-interventi-vari-image33 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gal-interventi-vari-container8 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-interventi-vari-image34 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gallery-fragment4 {
+  display: contents;
+}
+ 
+.gallery-text6 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .gal-interventi-vari-content1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gal-interventi-vari-image11 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-interventi-vari-image21 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-interventi-vari-image31 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-interventi-vari-image32 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-interventi-vari-content2 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gal-interventi-vari-image12 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-interventi-vari-image22 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-interventi-vari-image33 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-interventi-vari-image34 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .gal-interventi-vari-content1 {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .gal-interventi-vari-content2 {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+}
+
+.gallery-container {
+  width: 100%;
+  height: 765px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.gallery-fragment1 {
+  display: contents;
+}
+ 
+.gallery-text1 {
+  display: inline-block;
+}
+ 
+.gallery-fragment2 {
+  display: contents;
+}
+ 
+.gallery-text4 {
+  display: inline-block;
+}
+ 
+.gallery-fragment3 {
+  display: contents;
+}
+ 
+.gallery-text5 {
+  display: inline-block;
+}
+ 
+.gallery-fragment4 {
+  display: contents;
+}
+ 
+.gallery-text6 {
+  display: inline-block;
+}
+ 
+.galleryroot-class-name {
+  height: auto;
+}

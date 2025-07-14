@@ -1,0 +1,323 @@
+.banner1-wrapper {
+  display: contents;
+}
+ 
+.banner1-container1 {
+  gap: var(--dl-layout-space-unit);
+  width: 1199px;
+  height: 158px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+ 
+.banner1-title {
+  text-align: center;
+}
+ 
+.banner1-max-width {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner1-container2 {
+  gap: var(--dl-layout-space-halfunit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.opportunita-carriera-fragment1 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text10 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .banner1root-class-name {
+    width: auto;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .banner1root-class-name {
+    width: auto;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .banner1root-class-name {
+    width: auto;
+    align-self: flex-start;
+  }
+}
+
+.features7-wrapper {
+  display: contents;
+}
+ 
+.features7-layout226 {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.features7-max-width {
+  align-self: flex-start;
+}
+ 
+.features7-title1 {
+  text-align: center;
+}
+ 
+.features7-description1 {
+  text-align: center;
+}
+ 
+.features7-title2 {
+  text-align: center;
+}
+ 
+.features7-description2 {
+  text-align: center;
+}
+ 
+.features7-title3 {
+  text-align: center;
+}
+ 
+.features7-description3 {
+  text-align: center;
+}
+ 
+.opportunita-carriera-fragment4 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text13 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment3 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text12 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment2 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text11 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment6 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text21 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment5 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text14 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment7 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text28 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .features7-content1 {
+    align-items: center;
+  }
+  .features7-content2 {
+    align-items: center;
+  }
+  .features7-content3 {
+    align-items: center;
+  }
+}
+
+.features1-wrapper {
+  display: contents;
+}
+ 
+.features1-layout251 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.features1-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.features1-actions {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.features1-button {
+  text-decoration: none;
+}
+ 
+.opportunita-carriera-fragment9 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text39 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment8 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text38 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .features1-section-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .features1-actions {
+    flex-wrap: wrap;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .features1-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .features1-button {
+    width: 100%;
+  }
+}
+
+.opportunita-carriera-container {
+  width: 100%;
+  height: 1314px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.opportunita-carriera-fragment1 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text10 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment2 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text11 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment3 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text12 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment4 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text13 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment5 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text14 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment6 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text21 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment7 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text28 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment8 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text38 {
+  display: inline-block;
+}
+ 
+.opportunita-carriera-fragment9 {
+  display: contents;
+}
+ 
+.opportunita-carriera-text39 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 479px) {
+  .opportunita-carriera-container {
+    height: 1832px;
+  }
+}

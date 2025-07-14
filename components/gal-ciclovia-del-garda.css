@@ -1,0 +1,126 @@
+.gal-ciclovia-del-garda-gallery3 {
+  gap: var(--dl-layout-space-fiveunits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-ciclovia-del-garda-max-width {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gal-ciclovia-del-garda-section-title {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-ciclovia-del-garda-text1 {
+  text-align: center;
+}
+ 
+.gal-ciclovia-del-garda-text2 {
+  text-align: center;
+}
+ 
+.gal-ciclovia-del-garda-content1 {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-content2 {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-container6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-del-garda-fragment1 {
+  display: contents;
+}
+ 
+.gal-ciclovia-del-garda-text3 {
+  display: inline-block;
+}
+ 
+.gal-ciclovia-del-garda-fragment2 {
+  display: contents;
+}
+ 
+.gal-ciclovia-del-garda-text6 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .gal-ciclovia-del-garda-content1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gal-ciclovia-del-garda-content2 {
+    align-items: center;
+    flex-direction: column;
+  }
+}

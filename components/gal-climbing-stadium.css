@@ -1,0 +1,220 @@
+.gal-climbing-stadium-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-climbing-stadium-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gal-climbing-stadium-section-title {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-climbing-stadium-text1 {
+  text-align: center;
+}
+ 
+.gal-climbing-stadium-content1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image11 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-climbing-stadium-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image21 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-climbing-stadium-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image31 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gal-climbing-stadium-container4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image32 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gal-climbing-stadium-content2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-container5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image12 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-climbing-stadium-container6 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image22 {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+}
+ 
+.gal-climbing-stadium-container7 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image33 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gal-climbing-stadium-container8 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.gal-climbing-stadium-image34 {
+  width: 100%;
+  max-width: 600px;
+}
+ 
+.gal-climbing-stadium-fragment {
+  display: contents;
+}
+ 
+.gal-climbing-stadium-text2 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .gal-climbing-stadium-content1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gal-climbing-stadium-image11 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image21 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image31 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image32 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-content2 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .gal-climbing-stadium-image12 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image22 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image33 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gal-climbing-stadium-image34 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .gal-climbing-stadium-content1 {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .gal-climbing-stadium-content2 {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+}
