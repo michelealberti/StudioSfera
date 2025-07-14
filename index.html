@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <title>Studio Sfera</title>
     <meta property="og:title" content="Studio Sfera" />
@@ -173,6 +173,77 @@
         .team-soci-placeholder-image2,
         .team-soci-placeholder-image3,
         .team-soci-placeholder-image4 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Team collaborators hover effect styling */
+        .team-collaborators-card1,
+        .team-collaborators-card2,
+        .team-collaborators-card3,
+        .team-collaborators-card4,
+        .team-collaborators-card5,
+        .team-collaborators-card6,
+        .team-collaborators-card7 {
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .team-collaborators-card1:hover,
+            .team-collaborators-card2:hover,
+            .team-collaborators-card3:hover,
+            .team-collaborators-card4:hover,
+            .team-collaborators-card5:hover,
+            .team-collaborators-card6:hover,
+            .team-collaborators-card7:hover {
+                transform: translateY(-5px);
+            }
+
+        /* Hide content by default */
+        .team-collaborators-content13,
+        .team-collaborators-content14,
+        .team-collaborators-content15,
+        .team-collaborators-content16,
+        .team-collaborators-content17,
+        .team-collaborators-content18,
+        .team-collaborators-content19 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            opacity: 0;
+            transform: translateY(100%);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Show content on hover */
+        .team-collaborators-card1:hover .team-collaborators-content13,
+        .team-collaborators-card2:hover .team-collaborators-content14,
+        .team-collaborators-card3:hover .team-collaborators-content15,
+        .team-collaborators-card4:hover .team-collaborators-content16,
+        .team-collaborators-card5:hover .team-collaborators-content17,
+        .team-collaborators-card6:hover .team-collaborators-content18,
+        .team-collaborators-card7:hover .team-collaborators-content19 {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Make the images fill the card properly */
+        .team-collaborators-placeholder-image1,
+        .team-collaborators-placeholder-image2,
+        .team-collaborators-placeholder-image3,
+        .team-collaborators-placeholder-image4,
+        .team-collaborators-placeholder-image5,
+        .team-collaborators-placeholder-image6,
+        .team-collaborators-placeholder-image7 {
             width: 100%;
             height: 100%;
             object-fit: cover;
