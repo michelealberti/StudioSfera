@@ -1,35 +1,68 @@
 :root {
-  --dl-layout-size-large: 144px;
-  --dl-layout-size-small: 48px;
-  --dl-layout-space-unit: 16px;
-  --dl-layout-size-medium: 96px;
-  --dl-layout-size-xlarge: 192px;
-  --dl-layout-size-xsmall: 16px;
-  --dl-color-theme-accent1: #2499F3;
-  --dl-color-theme-accent2: #007CCE;
-  --dl-layout-radius-round: 50%;
-  --dl-layout-size-xxlarge: 288px;
-  --dl-color-theme-primary1: #25C3E2;
-  --dl-color-theme-primary2: #00ACCE;
-  --dl-layout-size-maxwidth: 1400px;
-  --dl-layout-radius-radius2: 2px;
-  --dl-layout-radius-radius4: 4px;
-  --dl-layout-radius-radius8: 8px;
-  --dl-layout-space-halfunit: 8px;
-  --dl-layout-space-sixunits: 96px;
-  --dl-layout-space-twounits: 32px;
-  --dl-color-theme-secondary1: #E7EAEA;
-  --dl-color-theme-secondary2: #393939;
-  --dl-layout-space-fiveunits: 80px;
-  --dl-layout-space-fourunits: 64px;
-  --dl-layout-space-threeunits: 48px;
-  --dl-color-theme-neutral-dark: #F5F4F4;
-  --dl-layout-radius-cardradius: 8px;
-  --dl-color-theme-neutral-light: #222222;
-  --dl-layout-radius-imageradius: 8px;
-  --dl-layout-radius-inputradius: 24px;
-  --dl-layout-radius-buttonradius: 24px;
-  --dl-layout-space-oneandhalfunits: 24px;
+    --dl-layout-size-large: 144px;
+    --dl-layout-size-small: 48px;
+    --dl-layout-space-unit: 16px;
+    --dl-layout-size-medium: 96px;
+    --dl-layout-size-xlarge: 192px;
+    --dl-layout-size-xsmall: 16px;
+    --dl-color-theme-accent1: #2499F3;
+    --dl-color-theme-accent2: #007CCE;
+    --dl-layout-radius-round: 50%;
+    --dl-layout-size-xxlarge: 288px;
+    --dl-color-theme-primary1: #25C3E2;
+    --dl-color-theme-primary2: #00ACCE;
+    --dl-layout-size-maxwidth: 1400px;
+    --dl-layout-radius-radius2: 2px;
+    --dl-layout-radius-radius4: 4px;
+    --dl-layout-radius-radius8: 8px;
+    --dl-layout-space-halfunit: 8px;
+    --dl-layout-space-sixunits: 96px;
+    --dl-layout-space-twounits: 32px;
+    --dl-color-theme-secondary1: #E7EAEA;
+    --dl-color-theme-secondary2: #393939;
+    --dl-layout-space-fiveunits: 80px;
+    --dl-layout-space-fourunits: 64px;
+    --dl-layout-space-threeunits: 48px;
+    /*--dl-color-theme-neutral-dark: #F5F4F4;*/
+    --dl-color-theme-neutral-dark: #F9F8F8;
+    --dl-layout-radius-cardradius: 8px;
+    --dl-color-theme-neutral-light: #222222;
+    --dl-layout-radius-imageradius: 8px;
+    --dl-layout-radius-inputradius: 24px;
+    --dl-layout-radius-buttonradius: 24px;
+    --dl-layout-space-oneandhalfunits: 24px;
+}
+
+.background-image-container {
+    animation: fadeIn 1.5s ease-in-out;
+    background-image: url('public/background.png');
+    background-attachment: fixed; /* For parallax effect, or use 'scroll' for standard behavior */
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh; /* Ensures it covers at least the full viewport height */
+    position: relative; /* Creates a positioning context */
+    overflow-y: auto; /* Allows vertical scrolling */
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInBackground {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.3; /* Adjust this value for desired transparency level */
+    }
 }
  
 .button {
