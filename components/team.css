@@ -1,0 +1,762 @@
+.team-team12 {
+  height: 1546px;
+  padding-bottom: 0px;
+}
+ 
+.team-max-width {
+  gap: var(--dl-layout-space-fiveunits);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-section-title1 {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.team-content10 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-text10 {
+  font-family: "Aptos";
+}
+ 
+.team-text11 {
+  font-family: "Aptos";
+}
+ 
+.team-content11 {
+  gap: var(--dl-layout-space-sixunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-content12 {
+  gap: var(--dl-layout-space-fourunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.team-row {
+  gap: 64px;
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-right: 41px;
+  justify-content: center;
+}
+ 
+.team-card10 {
+  gap: 24px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.team-content13 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-title10 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-text12 {
+  font-style: normal;
+  font-family: "Aptos";
+  font-weight: 600;
+}
+ 
+.team-text13 {
+  font-family: "Aptos";
+}
+ 
+.team-social-icons10 {
+  gap: 14px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-card11 {
+  gap: 24px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.team-content14 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-title11 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-text14 {
+  font-style: normal;
+  font-family: "Aptos";
+  font-weight: 600;
+}
+ 
+.team-text15 {
+  font-family: "Aptos";
+}
+ 
+.team-social-icons11 {
+  gap: 14px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-card12 {
+  gap: 24px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.team-content15 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-title12 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-text16 {
+  font-style: normal;
+  font-family: "Aptos";
+  font-weight: 600;
+}
+ 
+.team-text17 {
+  font-family: "Aptos";
+}
+ 
+.team-social-icons12 {
+  gap: 14px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-card13 {
+  gap: 24px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.team-content16 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-title13 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-text18 {
+  font-style: normal;
+  font-family: "Aptos";
+  font-weight: 600;
+}
+ 
+.team-text19 {
+  font-family: "Aptos";
+}
+ 
+.team-social-icons13 {
+  gap: 14px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-section-title2 {
+  gap: var(--dl-layout-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.team-content17 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.team-text20 {
+  font-family: "Aptos";
+}
+ 
+.team-text21 {
+  font-family: "Aptos";
+}
+ 
+.team-content18 {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+}
+ 
+.team-card14 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-placeholder-image1 {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+}
+ 
+.team-content19 {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-title14 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-text22 {
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.team-text23 {
+  text-align: center;
+}
+ 
+.team-link1 {
+  display: contents;
+}
+ 
+.team-icon26 {
+  text-decoration: none;
+}
+ 
+.team-social-icons14 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-card15 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-placeholder-image2 {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+}
+ 
+.team-content20 {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-title15 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-text24 {
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.team-text25 {
+  text-align: center;
+}
+ 
+.team-link2 {
+  display: contents;
+}
+ 
+.team-icon28 {
+  text-decoration: none;
+}
+ 
+.team-social-icons15 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-card16 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-placeholder-image3 {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+}
+ 
+.team-content21 {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-title16 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-text26 {
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.team-text27 {
+  text-align: center;
+}
+ 
+.team-link3 {
+  display: contents;
+}
+ 
+.team-icon30 {
+  text-decoration: none;
+}
+ 
+.team-social-icons16 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-card17 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-placeholder-image4 {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+}
+ 
+.team-content22 {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-title17 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-text28 {
+  font-style: normal;
+  font-family: "Aptos";
+  font-weight: 600;
+}
+ 
+.team-text29 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.team-link4 {
+  display: contents;
+}
+ 
+.team-icon32 {
+  text-decoration: none;
+}
+ 
+.team-social-icons17 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-card18 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.team-placeholder-image5 {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+}
+ 
+.team-content23 {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-title18 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-text30 {
+  font-style: normal;
+  font-family: "Aptos";
+  font-weight: 600;
+}
+ 
+.team-text31 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.team-link5 {
+  display: contents;
+}
+ 
+.team-icon34 {
+  text-decoration: none;
+}
+ 
+.team-social-icons18 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-card19 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.team-placeholder-image6 {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+}
+ 
+.team-content24 {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-title19 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-text32 {
+  font-style: normal;
+  font-family: "Aptos";
+  font-weight: 600;
+}
+ 
+.team-text33 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.team-link6 {
+  display: contents;
+}
+ 
+.team-icon36 {
+  text-decoration: none;
+}
+ 
+.team-social-icons19 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-card20 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.team-placeholder-image7 {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+}
+ 
+.team-content25 {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-title20 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.team-text34 {
+  font-style: normal;
+  font-family: "Aptos";
+  font-weight: 600;
+}
+ 
+.team-text35 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.team-link7 {
+  display: contents;
+}
+ 
+.team-icon38 {
+  text-decoration: none;
+}
+ 
+.team-social-icons20 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.team-fragment10 {
+  display: contents;
+}
+ 
+.team-text36 {
+  display: inline-block;
+}
+ 
+.team-fragment11 {
+  display: contents;
+}
+ 
+.team-text37 {
+  display: inline-block;
+}
+ 
+.team-fragment12 {
+  display: contents;
+}
+ 
+.team-text38 {
+  display: inline-block;
+}
+ 
+.team-fragment13 {
+  display: contents;
+}
+ 
+.team-text39 {
+  display: inline-block;
+}
+ 
+.team-fragment14 {
+  display: contents;
+}
+ 
+.team-text40 {
+  display: inline-block;
+}
+ 
+.team-fragment15 {
+  display: contents;
+}
+ 
+.team-text41 {
+  display: inline-block;
+}
+ 
+.team-fragment16 {
+  display: contents;
+}
+ 
+.team-text42 {
+  display: inline-block;
+}
+ 
+.team-fragment17 {
+  display: contents;
+}
+ 
+.team-text43 {
+  display: inline-block;
+}
+ 
+.team-fragment18 {
+  display: contents;
+}
+ 
+.team-text44 {
+  display: inline-block;
+}
+ 
+.team-fragment19 {
+  display: contents;
+}
+ 
+.team-text45 {
+  display: inline-block;
+}
+ 
+.team-fragment20 {
+  display: contents;
+}
+ 
+.team-text55 {
+  display: inline-block;
+}
+ 
+.team-fragment21 {
+  display: contents;
+}
+ 
+.team-text56 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .team-row {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .team-text11 {
+    text-align: center;
+  }
+  .team-row {
+    gap: var(--dl-layout-space-twounits);
+  }
+  .team-text21 {
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .team-row {
+    flex-direction: column;
+  }
+  .team-member-image1 {
+    height: 450px;
+  }
+  .team-member-image2 {
+    height: 450px;
+  }
+  .team-member-image3 {
+    height: 450px;
+  }
+  .team-member-image4 {
+    height: 450px;
+  }
+}

@@ -1,0 +1,426 @@
+.banner1-wrapper {
+  display: contents;
+}
+ 
+.banner1-container1 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+ 
+.banner1-max-width {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner1-container2 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner1-title {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.banner1-text1 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.opportunita-fragment15 {
+  display: contents;
+}
+ 
+.opportunita-text42 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.opportunita-fragment16 {
+  display: contents;
+}
+ 
+.opportunita-text43 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment17 {
+  display: contents;
+}
+ 
+.opportunita-text50 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.opportunita-fragment18 {
+  display: contents;
+}
+ 
+.opportunita-text51 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment19 {
+  display: contents;
+}
+ 
+.opportunita-text58 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment20 {
+  display: contents;
+}
+ 
+.opportunita-text59 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment11 {
+  display: contents;
+}
+ 
+.opportunita-text11 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment10 {
+  display: contents;
+}
+ 
+.opportunita-text10 {
+  display: inline-block;
+}
+
+.hero8-wrapper {
+  display: contents;
+}
+ 
+.hero8-header26 {
+  gap: var(--dl-layout-space-twounits);
+}
+ 
+.hero8-max-width {
+  align-self: center;
+}
+ 
+.hero8-column {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.hero8-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.hero8-text10 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.hero8-text11 {
+  text-align: left;
+  font-family: "Aptos";
+}
+ 
+.hero8-actions {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.hero8-button {
+  text-decoration: none;
+}
+ 
+.hero8-text12 {
+  font-family: "Aptos";
+}
+ 
+.opportunita-fragment15 {
+  display: contents;
+}
+ 
+.opportunita-text42 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.opportunita-fragment16 {
+  display: contents;
+}
+ 
+.opportunita-text43 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment17 {
+  display: contents;
+}
+ 
+.opportunita-text50 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.opportunita-fragment18 {
+  display: contents;
+}
+ 
+.opportunita-text51 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment19 {
+  display: contents;
+}
+ 
+.opportunita-text58 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment20 {
+  display: contents;
+}
+ 
+.opportunita-text59 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment13 {
+  display: contents;
+}
+ 
+.opportunita-text19 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment12 {
+  display: contents;
+}
+ 
+.opportunita-text18 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment14 {
+  display: contents;
+}
+ 
+.opportunita-text41 {
+  display: inline-block;
+}
+ 
+@media(max-width: 479px) {
+  .hero8-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero8-button {
+    width: 100%;
+  }
+}
+
+.opportunita-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.opportunita-fragment10 {
+  display: contents;
+}
+ 
+.opportunita-text10 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment11 {
+  display: contents;
+}
+ 
+.opportunita-text11 {
+  display: inline-block;
+}
+ 
+.opportunita-max-width {
+  display: flex;
+  align-items: center;
+}
+ 
+.opportunita-container1 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary1);
+}
+ 
+.opportunita-text12 {
+  font-family: "Aptos";
+}
+ 
+.opportunita-text13 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.opportunita-container2 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary2);
+}
+ 
+.opportunita-text14 {
+  color: #ffffff;
+  font-family: "Aptos";
+}
+ 
+.opportunita-text15 {
+  color: #fdfdfd;
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.opportunita-container3 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary1);
+}
+ 
+.opportunita-text16 {
+  font-family: "Aptos";
+}
+ 
+.opportunita-text17 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.opportunita-fragment12 {
+  display: contents;
+}
+ 
+.opportunita-text18 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment13 {
+  display: contents;
+}
+ 
+.opportunita-text19 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment14 {
+  display: contents;
+}
+ 
+.opportunita-text41 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment15 {
+  display: contents;
+}
+ 
+.opportunita-text42 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.opportunita-fragment16 {
+  display: contents;
+}
+ 
+.opportunita-text43 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment17 {
+  display: contents;
+}
+ 
+.opportunita-text50 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.opportunita-fragment18 {
+  display: contents;
+}
+ 
+.opportunita-text51 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment19 {
+  display: contents;
+}
+ 
+.opportunita-text58 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment20 {
+  display: contents;
+}
+ 
+.opportunita-text59 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .opportunita-max-width {
+    gap: var(--dl-layout-space-twounits);
+    flex-direction: column-reverse;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .opportunita-container1 {
+    width: 100%;
+  }
+  .opportunita-container2 {
+    width: 100%;
+  }
+  .opportunita-container3 {
+    width: 100%;
+  }
+}

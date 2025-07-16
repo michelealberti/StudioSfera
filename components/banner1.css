@@ -1,14 +1,8 @@
 .banner1-container1 {
   gap: var(--dl-layout-space-unit);
-  width: 1199px;
-  height: 158px;
   display: flex;
   position: relative;
   align-items: center;
-}
- 
-.banner1-title {
-  text-align: center;
 }
  
 .banner1-max-width {
@@ -20,37 +14,33 @@
  
 .banner1-container2 {
   gap: var(--dl-layout-space-halfunit);
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: column;
 }
  
-.banner1-fragment {
+.banner1-title {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.banner1-text1 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.banner1-fragment1 {
   display: contents;
 }
  
-.banner1-text {
+.banner1-text2 {
   display: inline-block;
 }
  
-
- 
-@media(max-width: 991px) {
-  .banner1root-class-name {
-    width: auto;
-  }
+.banner1-fragment2 {
+  display: contents;
 }
  
-@media(max-width: 767px) {
-  .banner1root-class-name {
-    width: auto;
-  }
-}
- 
-@media(max-width: 479px) {
-  .banner1root-class-name {
-    width: auto;
-    align-self: flex-start;
-  }
+.banner1-text3 {
+  display: inline-block;
 }

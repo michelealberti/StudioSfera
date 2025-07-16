@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Gallery - StudioSfera</title>
+    <meta property="og:title" content="Gallery - StudioSfera" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button, input, optgroup, select, textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button, select {
+            text-transform: none;
+        }
+
+        button, [type="button"], [type="reset"], [type="submit"] {
+            -webkit-appearance: button;
+            color: inherit;
+        }
+
+            button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+                border-style: none;
+                padding: 0;
+            }
+
+            button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type="submit"]:-moz-focus {
+                outline: 1px dotted ButtonText;
+            }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+        }
+
+        img {
+            display: block;
+        }
+
+        details {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        [data-thq="accordion"] [data-thq="accordion-content"] {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+            padding: 0;
+        }
+
+        [data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {
+            max-height: 1000vh;
+        }
+
+        details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {
+            transform: rotate(180deg);
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-theme-neutral-dark);
+            background: var(--dl-color-theme-neutral-light);
+            fill: var(--dl-color-theme-neutral-dark);
+        }
+    </style>
+    <link rel="stylesheet"
+          href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+          data-tag="font" />
+    <link rel="stylesheet"
+          href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+</head>
+<body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+        <link href="./gallery.css" rel="stylesheet" />
+
+        <div class="gallery-container">
+            <nav-bar-wrapper class="nav-bar-wrapper"
+                             rootclassname="nav-barundefined">
+                <!--NavBar component-->
+                <header class="nav-bar-container1 nav-barroot-class-name1">
+                    <header data-thq="thq-navbar" class="nav-bar-navbar-interactive">
+                        <img alt="image"
+                             src="public/cattura-1500h.png"
+                             class="nav-bar-image" />
+                        <div class="nav-bar-container2">
+                            <div data-thq="thq-navbar-nav" class="nav-bar-desktop-menu">
+                                <nav class="nav-bar-links1">
+                                    <a href="index.html"
+                                       class="nav-bar-link11 thq-body-small thq-link">
+                                        <fragment class="gallery-fragment14">
+                                            <span class="gallery-text16">Home</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="studio-sfera.html"
+                                       class="nav-bar-link21 thq-body-small thq-link">
+                                        <fragment class="gallery-fragment13">
+                                            <span class="gallery-text15">StudioSfera</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="gallery.html"
+                                       class="nav-bar-link31 thq-body-small thq-link">
+                                        <fragment class="gallery-fragment11">
+                                            <span class="gallery-text11">Gallery</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="servizi.html"
+                                       class="nav-bar-link41 thq-body-small thq-link">
+                                        <fragment class="gallery-fragment10">
+                                            <span class="gallery-text10">Servizi</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="contacts.html"
+                                       class="nav-bar-link51 thq-body-small thq-link">
+                                        <fragment class="gallery-fragment12">
+                                            <span class="gallery-text12">
+                                                <span>Contatti</span>
+                                                <br />
+                                            </span>
+                                        </fragment>
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                        <div data-thq="thq-burger-menu" class="nav-bar-burger-menu">
+                            <svg viewBox="0 0 1024 1024" class="nav-bar-icon10">
+                                <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+                            </svg>
+                        </div>
+                        <div data-thq="thq-mobile-menu" class="nav-bar-mobile-menu">
+                            <div class="nav-bar-nav">
+                                <div class="nav-bar-top">
+                                    <img alt="StudioSfera Logo"
+                                         src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&amp;force_format=original"
+                                         class="nav-bar-logo" />
+                                    <div data-thq="thq-close-menu" class="nav-bar-close-menu">
+                                        <svg viewBox="0 0 1024 1024" class="nav-bar-icon12">
+                                            <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <nav class="nav-bar-links2">
+                                    <a href="index.html"
+                                       class="thq-body-small thq-link">
+                                        <fragment class="gallery-fragment14">
+                                            <span class="gallery-text16">Home</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="studio-sfera.html"
+                                       class="thq-body-small thq-link">
+                                        <fragment class="gallery-fragment13">
+                                            <span class="gallery-text15">StudioSfera</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="gallery.html"
+                                       class="thq-body-small thq-link">
+                                        <fragment class="gallery-fragment11">
+                                            <span class="gallery-text11">Gallery</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="servizi.html"
+                                       class="thq-body-small thq-link">
+                                        <fragment class="gallery-fragment10">
+                                            <span class="gallery-text10">Servizi</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="contacts.html"
+                                       class="thq-body-small thq-link">
+                                        <fragment class="gallery-fragment12">
+                                            <span class="gallery-text12">
+                                                <span>Contatti</span>
+                                                <br />
+                                            </span>
+                                        </fragment>
+                                    </a>
+                                </nav>
+                            </div>
+                            <div class="nav-bar-icon-group">
+                                <svg viewBox="0 0 950.8571428571428 1024"
+                                     class="thq-icon-x-small">
+                                    <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
+                                </svg><svg viewBox="0 0 877.7142857142857 1024"
+                                           class="thq-icon-x-small">
+                                    <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+                                </svg><svg viewBox="0 0 602.2582857142856 1024"
+                                           class="thq-icon-x-small">
+                                    <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </header>
+                </header>
+            </nav-bar-wrapper>
+            <gal-ciclovia-garda-wrapper class="gal-ciclovia-garda-wrapper">
+                <!--GalCicloviaGarda component-->
+                <div class="gal-ciclovia-garda-gallery3 thq-section-padding">
+                    <div class="gal-ciclovia-garda-max-width thq-section-max-width">
+                        <div class="gal-ciclovia-garda-section-title">
+                            <h2 class="gal-ciclovia-garda-text1 thq-heading-2">
+                                <fragment class="gallery-fragment15">
+                                    <span class="gallery-text17">Ciclovia del Garda</span>
+                                </fragment>
+                            </h2>
+                        </div>
+                        <div class="gal-ciclovia-garda-container">
+                            <div class="gal-ciclovia-garda-content">
+                                <div data-thq="slider"
+                                     data-loop="true"
+                                     data-autoplay="true"
+                                     data-navigation="true"
+                                     data-pagination="true"
+                                     data-disable-autoplay-on-interaction="true"
+                                     class="gal-ciclovia-garda-slider swiper">
+                                    <div data-thq="slider-wrapper" class="swiper-wrapper">
+                                        <div data-thq="slider-slide"
+                                             class="gal-ciclovia-garda-slider-slide1 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/CicloviaDelGarda/202503~1-1400w.jpg"
+                                                 class="gal-ciclovia-garda-image1 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-ciclovia-garda-slider-slide2 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/CicloviaDelGarda/202503~2-1400w.jpg"
+                                                 class="gal-ciclovia-garda-image2 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-ciclovia-garda-slider-slide3 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/CicloviaDelGarda/202503~3-1400w.jpg"
+                                                 class="gal-ciclovia-garda-image3 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-ciclovia-garda-slider-slide4 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/CicloviaDelGarda/202503~4-1400w.jpg"
+                                                 class="gal-ciclovia-garda-image4 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-ciclovia-garda-slider-slide5 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/CicloviaDelGarda/202505~1-1400w.jpg"
+                                                 class="gal-ciclovia-garda-image5 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-ciclovia-garda-slider-slide6 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/CicloviaDelGarda/207272~1-1400w.jpg"
+                                                 class="gal-ciclovia-garda-image6 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-ciclovia-garda-slider-slide7 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/CicloviaDelGarda/2083bb~1-1400w.jpg"
+                                                 class="gal-ciclovia-garda-image7 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-ciclovia-garda-slider-slide8 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/CicloviaDelGarda/20c5af~1-1400w.jpg"
+                                                 class="gal-ciclovia-garda-image8 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-ciclovia-garda-slider-slide9 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/CicloviaDelGarda/unite-1400w.jpg"
+                                                 class="gal-ciclovia-garda-image9 thq-img-ratio-4-3" />
+                                        </div>
+                                    </div>
+                                    <div data-thq="slider-button-prev"
+                                         class="swiper-button-prev"></div>
+                                    <div data-thq="slider-button-next"
+                                         class="swiper-button-next"></div>
+                                    <div data-thq="slider-pagination"
+                                         class="gal-ciclovia-garda-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </gal-ciclovia-garda-wrapper>
+            <gal-climbing-stadium-wrapper class="gal-climbing-stadium-wrapper"
+                                          rootclassname="gal-climbing-stadiumundefined">
+                <!--GalClimbingStadium component-->
+                <div class="gal-climbing-stadium-gallery3 thq-section-padding gal-climbing-stadiumroot-class-name">
+                    <div class="gal-climbing-stadium-max-width thq-section-max-width">
+                        <div class="gal-climbing-stadium-section-title">
+                            <h2 class="gal-climbing-stadium-text1 thq-heading-2">
+                                <fragment class="gallery-fragment16">
+                                    <span class="gallery-text18">Climbing Stadium</span>
+                                </fragment>
+                            </h2>
+                        </div>
+                        <div class="gal-climbing-stadium-container">
+                            <div class="gal-climbing-stadium-content">
+                                <div data-thq="slider"
+                                     data-loop="true"
+                                     data-autoplay="true"
+                                     data-navigation="true"
+                                     data-pagination="true"
+                                     data-disable-autoplay-on-interaction="true"
+                                     class="gal-climbing-stadium-slider swiper">
+                                    <div data-thq="slider-wrapper" class="swiper-wrapper">
+                                        <div data-thq="slider-slide"
+                                             class="gal-climbing-stadium-slider-slide1 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/ClimbingStadium/20240902_075711-1400w.jpg"
+                                                 class="gal-climbing-stadium-image1 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-climbing-stadium-slider-slide2 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/ClimbingStadium/20240902_075817-1400w.jpg"
+                                                 class="gal-climbing-stadium-image2 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-climbing-stadium-slider-slide3 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/ClimbingStadium/20240902_080115-1400w.jpg"
+                                                 class="gal-climbing-stadium-image3 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-climbing-stadium-slider-slide4 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/ClimbingStadium/20240902_080838-1400w.jpg"
+                                                 class="gal-climbing-stadium-image4 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-climbing-stadium-slider-slide5 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/ClimbingStadium/20240902_081400-1400w.jpg"
+                                                 class="gal-climbing-stadium-image5 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-climbing-stadium-slider-slide6 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/ClimbingStadium/20250327_082633-1400w.jpg"
+                                                 class="gal-climbing-stadium-image6 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-climbing-stadium-slider-slide7 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/ClimbingStadium/20250327_082701-1400w.jpg"
+                                                 class="gal-climbing-stadium-image7 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-climbing-stadium-slider-slide8 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/ClimbingStadium/20250327_082945-1400w.jpg"
+                                                 class="gal-climbing-stadium-image8 thq-img-ratio-4-3" />
+                                        </div>
+                                    </div>
+                                    <div data-thq="slider-button-prev"
+                                         class="swiper-button-prev"></div>
+                                    <div data-thq="slider-button-next"
+                                         class="swiper-button-next"></div>
+                                    <div data-thq="slider-pagination"
+                                         class="gal-climbing-stadium-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </gal-climbing-stadium-wrapper>
+            <gal-nuova-costruzione-drena-wrapper class="gal-nuova-costruzione-drena-wrapper"
+                                                 rootclassname="gal-nuova-costruzione-drenaundefined">
+                <!--GalNuovaCostruzioneDrena component-->
+                <div class="gal-nuova-costruzione-drena-gallery3 thq-section-padding gal-nuova-costruzione-drenaroot-class-name">
+                    <div class="gal-nuova-costruzione-drena-max-width thq-section-max-width">
+                        <div class="gal-nuova-costruzione-drena-section-title">
+                            <h2 class="gal-nuova-costruzione-drena-text1 thq-heading-2">
+                                <fragment class="gallery-fragment17">
+                                    <span class="gallery-text19">Nuova costruzione Drena</span>
+                                </fragment>
+                            </h2>
+                        </div>
+                        <div class="gal-nuova-costruzione-drena-container">
+                            <div class="gal-nuova-costruzione-drena-content">
+                                <div data-thq="slider"
+                                     data-loop="true"
+                                     data-autoplay="true"
+                                     data-navigation="true"
+                                     data-pagination="true"
+                                     data-disable-autoplay-on-interaction="true"
+                                     class="gal-nuova-costruzione-drena-slider swiper">
+                                    <div data-thq="slider-wrapper" class="swiper-wrapper">
+                                        <div data-thq="slider-slide"
+                                             class="gal-nuova-costruzione-drena-slider-slide1 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/NcDrena/img_20210529_110831-1400w.jpg"
+                                                 class="gal-nuova-costruzione-drena-image1 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-nuova-costruzione-drena-slider-slide2 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/NcDrena/img_20210529_110755-1400w.jpg"
+                                                 class="gal-nuova-costruzione-drena-image2 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-nuova-costruzione-drena-slider-slide3 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/NcDrena/img_20210608_080107-1400w.jpg"
+                                                 class="gal-nuova-costruzione-drena-image3 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-nuova-costruzione-drena-slider-slide4 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/NcDrena/img_20210622_123542-1400w.jpg"
+                                                 class="gal-nuova-costruzione-drena-image4 thq-img-ratio-4-3" />
+                                        </div>
+                                    </div>
+                                    <div data-thq="slider-button-prev"
+                                         class="swiper-button-prev"></div>
+                                    <div data-thq="slider-button-next"
+                                         class="swiper-button-next"></div>
+                                    <div data-thq="slider-pagination"
+                                         class="gal-nuova-costruzione-drena-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </gal-nuova-costruzione-drena-wrapper>
+            <gal-nuova-costruzione-riva-del-garda-wrapper class="gal-nuova-costruzione-riva-del-garda-wrapper"
+                                                          rootclassname="gal-nuova-costruzione-riva-del-gardaundefined">
+                <!--GalNuovaCostruzioneRivaDelGarda component-->
+                <div class="gal-nuova-costruzione-riva-del-garda-gallery3 thq-section-padding gal-nuova-costruzione-riva-del-gardaroot-class-name">
+                    <div class="gal-nuova-costruzione-riva-del-garda-max-width thq-section-max-width">
+                        <div class="gal-nuova-costruzione-riva-del-garda-section-title">
+                            <h2 class="gal-nuova-costruzione-riva-del-garda-text1 thq-heading-2">
+                                <fragment class="gallery-fragment18">
+                                    <span class="gallery-text20">
+                                        Nuova costruzione Riva del Garda
+                                    </span>
+                                </fragment>
+                            </h2>
+                        </div>
+                        <div class="gal-nuova-costruzione-riva-del-garda-container">
+                            <div class="gal-nuova-costruzione-riva-del-garda-content">
+                                <div data-thq="slider"
+                                     data-loop="true"
+                                     data-autoplay="true"
+                                     data-navigation="true"
+                                     data-pagination="true"
+                                     data-disable-autoplay-on-interaction="true"
+                                     class="gal-nuova-costruzione-riva-del-garda-slider swiper">
+                                    <div data-thq="slider-wrapper" class="swiper-wrapper">
+                                        <div data-thq="slider-slide"
+                                             class="gal-nuova-costruzione-riva-del-garda-slider-slide1 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/NcRivaDelGarda/084e320413b0560a4834e8745e19388f-1400w.jpg"
+                                                 class="gal-nuova-costruzione-riva-del-garda-image1 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-nuova-costruzione-riva-del-garda-slider-slide2 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/NcRivaDelGarda/bd6873ad0ec5bad59f5434cb6c77b909-1400w.jpeg"
+                                                 class="gal-nuova-costruzione-riva-del-garda-image2 thq-img-ratio-4-3" />
+                                        </div>
+                                    </div>
+                                    <div data-thq="slider-button-prev"
+                                         class="swiper-button-prev"></div>
+                                    <div data-thq="slider-button-next"
+                                         class="swiper-button-next"></div>
+                                    <div data-thq="slider-pagination"
+                                         class="gal-nuova-costruzione-riva-del-garda-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </gal-nuova-costruzione-riva-del-garda-wrapper>
+            <gal-arco-ristrutturazoine-wrapper class="gal-arco-ristrutturazoine-wrapper"
+                                               rootclassname="gal-arco-ristrutturazoineundefined">
+                <!--GalArcoRistrutturazoine component-->
+                <div class="gal-arco-ristrutturazoine-gallery3 thq-section-padding gal-arco-ristrutturazoineroot-class-name">
+                    <div class="gal-arco-ristrutturazoine-max-width thq-section-max-width">
+                        <div class="gal-arco-ristrutturazoine-section-title">
+                            <h2 class="gal-arco-ristrutturazoine-text1 thq-heading-2">
+                                <fragment class="gallery-fragment19">
+                                    <span class="gallery-text21">Ristrutturazione Arco</span>
+                                </fragment>
+                            </h2>
+                        </div>
+                        <div class="gal-arco-ristrutturazoine-container">
+                            <div class="gal-arco-ristrutturazoine-content">
+                                <div data-thq="slider"
+                                     data-loop="true"
+                                     data-autoplay="true"
+                                     data-navigation="true"
+                                     data-pagination="true"
+                                     data-disable-autoplay-on-interaction="true"
+                                     class="gal-arco-ristrutturazoine-slider swiper">
+                                    <div data-thq="slider-wrapper" class="swiper-wrapper">
+                                        <div data-thq="slider-slide"
+                                             class="gal-arco-ristrutturazoine-slider-slide1 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/RistrutturazioneArco/20190211_205212-1400w.jpg"
+                                                 class="gal-arco-ristrutturazoine-image1 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-arco-ristrutturazoine-slider-slide2 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/RistrutturazioneArco/20200313_075912-1400w.jpg"
+                                                 class="gal-arco-ristrutturazoine-image2 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-arco-ristrutturazoine-slider-slide3 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/RistrutturazioneArco/2021-02-26%2008.33.17-1400w.jpg"
+                                                 class="gal-arco-ristrutturazoine-image3 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-arco-ristrutturazoine-slider-slide4 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/RistrutturazioneArco/20210209_135145-1400w.jpg"
+                                                 class="gal-arco-ristrutturazoine-image4 thq-img-ratio-4-3" />
+                                        </div>
+                                    </div>
+                                    <div data-thq="slider-button-prev"
+                                         class="swiper-button-prev"></div>
+                                    <div data-thq="slider-button-next"
+                                         class="swiper-button-next"></div>
+                                    <div data-thq="slider-pagination"
+                                         class="gal-arco-ristrutturazoine-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </gal-arco-ristrutturazoine-wrapper>
+            <gal-rotatoria-bonapace-wrapper class="gal-rotatoria-bonapace-wrapper"
+                                            rootclassname="gal-rotatoria-bonapaceundefined">
+                <!--GalRotatoriaBonapace component-->
+                <div class="gal-rotatoria-bonapace-gallery3 thq-section-padding gal-rotatoria-bonapaceroot-class-name">
+                    <div class="gal-rotatoria-bonapace-max-width thq-section-max-width">
+                        <div class="gal-rotatoria-bonapace-section-title">
+                            <h2 class="gal-rotatoria-bonapace-text1 thq-heading-2">
+                                <fragment class="gallery-fragment20">
+                                    <span class="gallery-text22">
+                                        Rotatoria Bonapace&nbsp; - Madonna di Campiglio
+                                    </span>
+                                </fragment>
+                            </h2>
+                        </div>
+                        <div class="gal-rotatoria-bonapace-container">
+                            <div class="gal-rotatoria-bonapace-content">
+                                <div data-thq="slider"
+                                     data-loop="true"
+                                     data-autoplay="true"
+                                     data-navigation="true"
+                                     data-pagination="true"
+                                     data-disable-autoplay-on-interaction="true"
+                                     class="gal-rotatoria-bonapace-slider swiper">
+                                    <div data-thq="slider-wrapper" class="swiper-wrapper">
+                                        <div data-thq="slider-slide"
+                                             class="gal-rotatoria-bonapace-slider-slide1 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/RotatoriaBonapace/2013-12-03%200012-1400w.jpg"
+                                                 class="gal-rotatoria-bonapace-image1 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-rotatoria-bonapace-slider-slide2 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/RotatoriaBonapace/foto%202-1400w.jpg"
+                                                 class="gal-rotatoria-bonapace-image2 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-rotatoria-bonapace-slider-slide3 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/RotatoriaBonapace/img_0034-1400w.jpg"
+                                                 class="gal-rotatoria-bonapace-image3 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-rotatoria-bonapace-slider-slide4 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/RotatoriaBonapace/img_0044-1400w.jpg"
+                                                 class="gal-rotatoria-bonapace-image4 thq-img-ratio-4-3" />
+                                        </div>
+                                    </div>
+                                    <div data-thq="slider-button-prev"
+                                         class="swiper-button-prev"></div>
+                                    <div data-thq="slider-button-next"
+                                         class="swiper-button-next"></div>
+                                    <div data-thq="slider-pagination"
+                                         class="gal-rotatoria-bonapace-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </gal-rotatoria-bonapace-wrapper>
+            <gal-interventi-vari-wrapper class="gal-interventi-vari-wrapper"
+                                         rootclassname="gal-interventi-variundefined">
+                <!--GalInterventiVari component-->
+                <div class="gal-interventi-vari-gallery3 thq-section-padding gal-interventi-variroot-class-name">
+                    <div class="gal-interventi-vari-max-width thq-section-max-width">
+                        <div class="gal-interventi-vari-section-title">
+                            <h2 class="gal-interventi-vari-text1 thq-heading-2">
+                                <fragment class="gallery-fragment21">
+                                    <span class="gallery-text23">Inteventi vari</span>
+                                </fragment>
+                            </h2>
+                        </div>
+                        <div class="gal-interventi-vari-container">
+                            <div class="gal-interventi-vari-content">
+                                <div data-thq="slider"
+                                     data-loop="true"
+                                     data-autoplay="true"
+                                     data-navigation="true"
+                                     data-pagination="true"
+                                     data-disable-autoplay-on-interaction="true"
+                                     class="gal-interventi-vari-slider swiper">
+                                    <div data-thq="slider-wrapper" class="swiper-wrapper">
+                                        <div data-thq="slider-slide"
+                                             class="gal-interventi-vari-slider-slide1 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/Interventi vari/38160593_1315020368635036_5850621037774897152_n-1400w.jpg"
+                                                 class="gal-interventi-vari-image1 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-interventi-vari-slider-slide2 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/Interventi vari/462746491_3298428186960901_5310791443312854561_n-1400w.jpg"
+                                                 class="gal-interventi-vari-image2 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-interventi-vari-slider-slide3 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/Interventi vari/462879350_3297209230416130_409635531317126988_n-1400w.jpg"
+                                                 class="gal-interventi-vari-image3 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-interventi-vari-slider-slide4 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/Interventi vari/495510443_3516636781806706_4753812136664803536_n-1400w.jpg"
+                                                 class="gal-interventi-vari-image4 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-interventi-vari-slider-slide5 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/Interventi vari/496924031_3521879637949087_3519829028507449885_n-1400w.jpg"
+                                                 class="gal-interventi-vari-image5 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-interventi-vari-slider-slide6 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/Interventi vari/497406304_3521879681282416_5374417436774998055_n-1400w.jpg"
+                                                 class="gal-interventi-vari-image6 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-interventi-vari-slider-slide7 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/Interventi vari/497437837_3521879251282459_2163343922926434353_n-1400w.jpg"
+                                                 class="gal-interventi-vari-image7 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-interventi-vari-slider-slide8 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/Interventi vari/497522157_3521879274615790_1746153786440603469_n-1400w.jpg"
+                                                 class="gal-interventi-vari-image8 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-interventi-vari-slider-slide9 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/CicloviaDelGarda/unite-1400w.jpg"
+                                                 class="gal-interventi-vari-image9 thq-img-ratio-4-3" />
+                                        </div>
+                                    </div>
+                                    <div data-thq="slider-button-prev"
+                                         class="swiper-button-prev"></div>
+                                    <div data-thq="slider-button-next"
+                                         class="swiper-button-next"></div>
+                                    <div data-thq="slider-pagination"
+                                         class="gal-interventi-vari-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </gal-interventi-vari-wrapper>
+            <gal-modelazioni3d-wrapper class="gal-modelazioni3d-wrapper"
+                                       rootclassname="gal-modelazioni3-dundefined">
+                <!--GalModelazioni3D component-->
+                <div class="gal-modelazioni3d-gallery3 thq-section-padding gal-modelazioni3-droot-class-name">
+                    <div class="gal-modelazioni3d-max-width thq-section-max-width">
+                        <div class="gal-modelazioni3d-section-title">
+                            <h2 class="gal-modelazioni3d-text1 thq-heading-2">
+                                <fragment class="gallery-fragment22">
+                                    <span class="gallery-text24">Modellazioni 3D</span>
+                                </fragment>
+                            </h2>
+                        </div>
+                        <div class="gal-modelazioni3d-container">
+                            <div class="gal-modelazioni3d-content">
+                                <div data-thq="slider"
+                                     data-loop="true"
+                                     data-autoplay="true"
+                                     data-navigation="true"
+                                     data-pagination="true"
+                                     data-disable-autoplay-on-interaction="true"
+                                     class="gal-modelazioni3d-slider swiper">
+                                    <div data-thq="slider-wrapper" class="swiper-wrapper">
+                                        <div data-thq="slider-slide"
+                                             class="gal-modelazioni3d-slider-slide1 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/Modellazioni/38065459_1315020345301705_7837421120188841984_n-1400w.jpg"
+                                                 class="gal-modelazioni3d-image1 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-modelazioni3d-slider-slide2 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/Modellazioni/46778964_1408720882598317_6995604901652856832_n-1400w.jpg"
+                                                 class="gal-modelazioni3d-image2 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-modelazioni3d-slider-slide3 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/Modellazioni/474477934_1047058670770397_8486340562912548621_n-1400w.jpg"
+                                                 class="gal-modelazioni3d-image3 thq-img-ratio-4-3" />
+                                        </div>
+                                    </div>
+                                    <div data-thq="slider-button-prev"
+                                         class="swiper-button-prev"></div>
+                                    <div data-thq="slider-button-next"
+                                         class="swiper-button-next"></div>
+                                    <div data-thq="slider-pagination"
+                                         class="gal-modelazioni3d-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </gal-modelazioni3d-wrapper>
+            <gal-rilievi-wrapper class="gal-rilievi-wrapper"
+                                 rootclassname="gal-rilieviundefined">
+                <!--GalRilievi component-->
+                <div class="gal-rilievi-gallery3 thq-section-padding gal-rilieviroot-class-name">
+                    <div class="gal-rilievi-max-width thq-section-max-width">
+                        <div class="gal-rilievi-section-title">
+                            <h2 class="gal-rilievi-text1 thq-heading-2">
+                                <fragment class="gallery-fragment23">
+                                    <span class="gallery-text25">Rilievi e topografia</span>
+                                </fragment>
+                            </h2>
+                        </div>
+                        <div class="gal-rilievi-container">
+                            <div class="gal-rilievi-content">
+                                <div data-thq="slider"
+                                     data-loop="true"
+                                     data-autoplay="true"
+                                     data-navigation="true"
+                                     data-pagination="true"
+                                     data-disable-autoplay-on-interaction="true"
+                                     class="gal-rilievi-slider swiper">
+                                    <div data-thq="slider-wrapper" class="swiper-wrapper">
+                                        <div data-thq="slider-slide"
+                                             class="gal-rilievi-slider-slide1 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/Rilievi/463776843_3305723289564724_7494149385418735514_n-1400w.jpg"
+                                                 class="gal-rilievi-image1 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-rilievi-slider-slide2 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/Rilievi/464033479_3305723306231389_4845814524170205144_n-1400w.jpg"
+                                                 class="gal-rilievi-image2 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-rilievi-slider-slide3 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/Rilievi/464134988_3310344665769253_8447142375871903677_n-1400w.jpg"
+                                                 class="gal-rilievi-image3 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-rilievi-slider-slide4 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/Rilievi/464712694_3319191188217934_1599350842253846356_n-1400w.jpg"
+                                                 class="gal-rilievi-image4 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-rilievi-slider-slide5 swiper-slide">
+                                            <img alt="Image 2"
+                                                 src="public/Lavori/Rilievi/464729256_3319191181551268_1033707959163279056_n-1400w.jpg"
+                                                 class="gal-rilievi-image5 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-rilievi-slider-slide6 swiper-slide">
+                                            <img alt="Image 3"
+                                                 src="public/Lavori/Rilievi/472608045_18155644045342550_3625051041175207286_n-1400w.jpg"
+                                                 class="gal-rilievi-image6 thq-img-ratio-4-3" />
+                                        </div>
+                                        <div data-thq="slider-slide"
+                                             class="gal-rilievi-slider-slide7 swiper-slide">
+                                            <img alt="Image 1"
+                                                 src="public/Lavori/Rilievi/486851666_1098633352279595_4943976928332837010_n-1400w.jpg"
+                                                 class="gal-rilievi-image7 thq-img-ratio-4-3" />
+                                        </div>
+                                    </div>
+                                    <div data-thq="slider-button-prev"
+                                         class="swiper-button-prev"></div>
+                                    <div data-thq="slider-button-next"
+                                         class="swiper-button-next"></div>
+                                    <div data-thq="slider-pagination"
+                                         class="gal-rilievi-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                        <div data-thq="slider-pagination-bullet"
+                                             class="swiper-pagination-bullet"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </gal-rilievi-wrapper>
+            <footer-wrapper class="footer-wrapper" rootclassname="footerundefined">
+                <!--Footer component-->
+                <footer class="footer-footer4 thq-section-padding footerroot-class-name1">
+                    <div class="footer-max-width thq-section-max-width">
+                        <div class="footer-credits">
+                            <div class="thq-divider-horizontal"></div>
+                            <div class="footer-row">
+                                <div class="footer-footer-links">
+                                    <span class="footer-content3 thq-body-small">
+                                        © 2025 Michele Alberti
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </footer-wrapper>
+        </div>
+    </div>
+    <script defer=""
+            src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+</body>
+</html>

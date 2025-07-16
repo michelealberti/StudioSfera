@@ -7,6 +7,7 @@
   align-items: center;
   flex-shrink: 0;
   flex-direction: column;
+  justify-content: center;
 }
  
 .gal-interventi-vari-max-width {
@@ -18,7 +19,7 @@
 }
  
 .gal-interventi-vari-section-title {
-  gap: var(--dl-layout-space-oneandhalfunits);
+  gap: 24px;
   width: auto;
   display: flex;
   max-width: 800px;
@@ -29,10 +30,20 @@
  
 .gal-interventi-vari-text1 {
   text-align: center;
+  font-family: "Aptos";
 }
  
-.gal-interventi-vari-content1 {
+.gal-interventi-vari-container {
   gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.gal-interventi-vari-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
   width: 100%;
   display: flex;
   align-self: stretch;
@@ -41,114 +52,113 @@
   justify-content: center;
 }
  
-.gal-interventi-vari-container1 {
+.gal-interventi-vari-slider {
   width: 100%;
+  height: 770px;
+  display: inline-block;
+}
+ 
+.gal-interventi-vari-slider-slide1 {
+  height: calc(100% - 20px);
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
  
-.gal-interventi-vari-image11 {
+.gal-interventi-vari-image1 {
   width: 100%;
-  max-width: 600px;
-  align-self: center;
+  height: 100%;
+  object-fit: cover;
 }
  
-.gal-interventi-vari-container2 {
-  width: 100%;
+.gal-interventi-vari-slider-slide2 {
+  height: calc(100% - 20px);
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
  
-.gal-interventi-vari-image21 {
+.gal-interventi-vari-image2 {
   width: 100%;
-  max-width: 600px;
-  align-self: center;
+  height: 100%;
+  object-fit: cover;
 }
  
-.gal-interventi-vari-container3 {
-  width: 100%;
+.gal-interventi-vari-slider-slide3 {
+  height: calc(100% - 20px);
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
  
-.gal-interventi-vari-image31 {
+.gal-interventi-vari-image3 {
   width: 100%;
-  max-width: 600px;
+  height: 100%;
+  object-fit: cover;
 }
  
-.gal-interventi-vari-container4 {
-  width: 100%;
+.gal-interventi-vari-slider-slide4 {
+  height: calc(100% - 20px);
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
  
-.gal-interventi-vari-image32 {
+.gal-interventi-vari-image4 {
   width: 100%;
-  max-width: 600px;
+  height: 100%;
+  object-fit: cover;
 }
  
-.gal-interventi-vari-content2 {
-  gap: var(--dl-layout-space-oneandhalfunits);
-  width: 100%;
+.gal-interventi-vari-slider-slide5 {
+  height: calc(100% - 20px);
   display: flex;
-  align-self: stretch;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: center;
 }
  
-.gal-interventi-vari-container5 {
+.gal-interventi-vari-image5 {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-interventi-vari-slider-slide6 {
+  height: calc(100% - 20px);
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
  
-.gal-interventi-vari-image12 {
+.gal-interventi-vari-image6 {
   width: 100%;
-  max-width: 600px;
-  align-self: center;
+  height: 100%;
+  object-fit: cover;
 }
  
-.gal-interventi-vari-container6 {
-  width: 100%;
+.gal-interventi-vari-slider-slide7 {
+  height: calc(100% - 20px);
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
  
-.gal-interventi-vari-image22 {
+.gal-interventi-vari-image7 {
   width: 100%;
-  max-width: 600px;
-  align-self: center;
+  height: 100%;
+  object-fit: cover;
 }
  
-.gal-interventi-vari-container7 {
-  width: 100%;
+.gal-interventi-vari-slider-slide8 {
+  height: calc(100% - 20px);
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
  
-.gal-interventi-vari-image33 {
+.gal-interventi-vari-image8 {
   width: 100%;
-  max-width: 600px;
+  height: 100%;
+  object-fit: cover;
 }
  
-.gal-interventi-vari-container8 {
-  width: 100%;
+.gal-interventi-vari-slider-slide9 {
+  height: calc(100% - 20px);
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
  
-.gal-interventi-vari-image34 {
+.gal-interventi-vari-image9 {
   width: 100%;
-  max-width: 600px;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-interventi-vari-slider-pagination {
+  display: block;
 }
  
 .gal-interventi-vari-fragment {
@@ -159,65 +169,26 @@
   display: inline-block;
 }
  
+
+ 
 @media(max-width: 991px) {
-  .gal-interventi-vari-content1 {
+  .gal-interventi-vari-content {
     align-items: center;
     flex-direction: column;
   }
-  .gal-interventi-vari-image11 {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 400px;
+}
+ 
+@media(max-width: 767px) {
+  .gal-interventi-vari-section-title {
+    gap: var(--dl-layout-space-oneandhalfunits);
   }
-  .gal-interventi-vari-image21 {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 400px;
-  }
-  .gal-interventi-vari-image31 {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 400px;
-  }
-  .gal-interventi-vari-image32 {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 400px;
-  }
-  .gal-interventi-vari-content2 {
-    align-items: center;
-    flex-direction: column;
-  }
-  .gal-interventi-vari-image12 {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 400px;
-  }
-  .gal-interventi-vari-image22 {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 400px;
-  }
-  .gal-interventi-vari-image33 {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 400px;
-  }
-  .gal-interventi-vari-image34 {
-    flex: 0 0 auto;
-    width: 100%;
-    height: 400px;
+  .gal-interventi-vari-slider {
+    height: 550px;
   }
 }
  
 @media(max-width: 479px) {
-  .gal-interventi-vari-max-width {
-    width: auto;
-  }
-  .gal-interventi-vari-content1 {
-    gap: var(--dl-layout-space-oneandhalfunits);
-  }
-  .gal-interventi-vari-content2 {
-    gap: var(--dl-layout-space-oneandhalfunits);
+  .gal-interventi-vari-slider {
+    height: 440px;
   }
 }

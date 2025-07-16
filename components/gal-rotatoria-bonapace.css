@@ -1,0 +1,139 @@
+.gal-rotatoria-bonapace-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gal-rotatoria-bonapace-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gal-rotatoria-bonapace-section-title {
+  gap: 24px;
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-rotatoria-bonapace-text1 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.gal-rotatoria-bonapace-container {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.gal-rotatoria-bonapace-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-rotatoria-bonapace-slider {
+  width: 100%;
+  height: 770px;
+  display: inline-block;
+}
+ 
+.gal-rotatoria-bonapace-slider-slide1 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-rotatoria-bonapace-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-rotatoria-bonapace-slider-slide2 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-rotatoria-bonapace-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-rotatoria-bonapace-slider-slide3 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-rotatoria-bonapace-image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-rotatoria-bonapace-slider-slide4 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-rotatoria-bonapace-image4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-rotatoria-bonapace-slider-pagination {
+  display: block;
+}
+ 
+.gal-rotatoria-bonapace-fragment {
+  display: contents;
+}
+ 
+.gal-rotatoria-bonapace-text2 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .gal-rotatoria-bonapace-content {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .gal-rotatoria-bonapace-section-title {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .gal-rotatoria-bonapace-slider {
+    height: 550px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .gal-rotatoria-bonapace-slider {
+    height: 440px;
+  }
+}

@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>StudioSfera</title>
+    <meta property="og:title" content="StudioSfera - StudioSfera" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button, input, optgroup, select, textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button, select {
+            text-transform: none;
+        }
+
+        button, [type="button"], [type="reset"], [type="submit"] {
+            -webkit-appearance: button;
+            color: inherit;
+        }
+
+            button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+                border-style: none;
+                padding: 0;
+            }
+
+            button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type="submit"]:-moz-focus {
+                outline: 1px dotted ButtonText;
+            }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+        }
+
+        img {
+            display: block;
+        }
+
+        details {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        [data-thq="accordion"] [data-thq="accordion-content"] {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+            padding: 0;
+        }
+
+        [data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {
+            max-height: 1000vh;
+        }
+
+        details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {
+            transform: rotate(180deg);
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-theme-neutral-dark);
+            background: var(--dl-color-theme-neutral-light);
+            fill: var(--dl-color-theme-neutral-dark);
+        }
+    </style>
+    <link rel="stylesheet"
+          href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+          data-tag="font" />
+    <link rel="stylesheet"
+          href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+</head>
+<body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+        <link href="./studio-sfera.css" rel="stylesheet" />
+
+        <div class="studio-sfera-container">
+            <nav-bar-wrapper class="nav-bar-wrapper"
+                             rootclassname="nav-barundefined">
+                <!--NavBar component-->
+                <header class="nav-bar-container1 nav-barroot-class-name3">
+                    <header data-thq="thq-navbar" class="nav-bar-navbar-interactive">
+                        <img alt="image"
+                             src="public/cattura-1500h.png"
+                             class="nav-bar-image" />
+                        <div class="nav-bar-container2">
+                            <div data-thq="thq-navbar-nav" class="nav-bar-desktop-menu">
+                                <nav class="nav-bar-links1">
+                                    <a href="index.html"
+                                       class="nav-bar-link11 thq-body-small thq-link">
+                                        <fragment class="studio-sfera-fragment14">
+                                            <span class="studio-sfera-text16">Home</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="studio-sfera.html"
+                                       class="nav-bar-link21 thq-body-small thq-link">
+                                        <fragment class="studio-sfera-fragment13">
+                                            <span class="studio-sfera-text15">StudioSfera</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="gallery.html"
+                                       class="nav-bar-link31 thq-body-small thq-link">
+                                        <fragment class="studio-sfera-fragment11">
+                                            <span class="studio-sfera-text11">Gallery</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="servizi.html"
+                                       class="nav-bar-link41 thq-body-small thq-link">
+                                        <fragment class="studio-sfera-fragment10">
+                                            <span class="studio-sfera-text10">Servizi</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="contacts.html"
+                                       class="nav-bar-link51 thq-body-small thq-link">
+                                        <fragment class="studio-sfera-fragment12">
+                                            <span class="studio-sfera-text12">
+                                                <span>Contatti</span>
+                                                <br />
+                                            </span>
+                                        </fragment>
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                        <div data-thq="thq-burger-menu" class="nav-bar-burger-menu">
+                            <svg viewBox="0 0 1024 1024" class="nav-bar-icon10">
+                                <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+                            </svg>
+                        </div>
+                        <div data-thq="thq-mobile-menu" class="nav-bar-mobile-menu">
+                            <div class="nav-bar-nav">
+                                <div class="nav-bar-top">
+                                    <img alt="StudioSfera Logo"
+                                         src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&amp;force_format=original"
+                                         class="nav-bar-logo" />
+                                    <div data-thq="thq-close-menu" class="nav-bar-close-menu">
+                                        <svg viewBox="0 0 1024 1024" class="nav-bar-icon12">
+                                            <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <nav class="nav-bar-links2">
+                                    <a href="index.html"
+                                       class="thq-body-small thq-link">
+                                        <fragment class="studio-sfera-fragment14">
+                                            <span class="studio-sfera-text16">Home</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="studio-sfera.html"
+                                       class="thq-body-small thq-link">
+                                        <fragment class="studio-sfera-fragment13">
+                                            <span class="studio-sfera-text15">StudioSfera</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="gallery.html"
+                                       class="thq-body-small thq-link">
+                                        <fragment class="studio-sfera-fragment11">
+                                            <span class="studio-sfera-text11">Gallery</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="servizi.html"
+                                       class="thq-body-small thq-link">
+                                        <fragment class="studio-sfera-fragment10">
+                                            <span class="studio-sfera-text10">Servizi</span>
+                                        </fragment>
+                                    </a>
+                                    <a href="contacts.html"
+                                       class="thq-body-small thq-link">
+                                        <fragment class="studio-sfera-fragment12">
+                                            <span class="studio-sfera-text12">
+                                                <span>Contatti</span>
+                                                <br />
+                                            </span>
+                                        </fragment>
+                                    </a>
+                                </nav>
+                            </div>
+                            <div class="nav-bar-icon-group">
+                                <svg viewBox="0 0 950.8571428571428 1024"
+                                     class="thq-icon-x-small">
+                                    <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
+                                </svg><svg viewBox="0 0 877.7142857142857 1024"
+                                           class="thq-icon-x-small">
+                                    <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+                                </svg><svg viewBox="0 0 602.2582857142856 1024"
+                                           class="thq-icon-x-small">
+                                    <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </header>
+                </header>
+            </nav-bar-wrapper>
+            <lo-studio-wrapper class="lo-studio-wrapper">
+                <!--LoStudio component-->
+                <div class="lo-studio-container thq-section-padding">
+                    <div class="lo-studio-max-width thq-section-max-width">
+                        <div class="lo-studio-content thq-flex-column">
+                            <ul class="lo-studio-ul thq-flex-column">
+                                <li class="thq-flex-column list-item">
+                                    <h2 class="lo-studio-heading1 thq-heading-2">
+                                        <fragment class="studio-sfera-fragment16">
+                                            <span class="studio-sfera-text30">
+                                                Una visione integrata per affrontare le sfide
+                                                dell’edilizia e del territorio
+                                            </span>
+                                        </fragment>
+                                    </h2>
+                                    <p class="lo-studio-content1 thq-body-small">
+                                        <fragment class="studio-sfera-fragment15">
+                                            <span class="studio-sfera-text17">
+                                                <span>
+                                                    StudioSfera è uno studio associato tra
+                                                    professionisti che nasce con un obiettivo preciso:
+                                                    offrire un servizio tecnico completo e trasversale,
+                                                    capace di abbracciare a 360° tutte le discipline che
+                                                    ruotano attorno al mondo dell’edilizia, della
+                                                    progettazione e della consulenza tecnica.
+                                                </span>
+                                                <br />
+                                                <br />
+                                                <span>
+                                                    Il nome Sfera rappresenta simbolicamente questa
+                                                    visione: un contenitore multidisciplinare, in cui
+                                                    competenze diverse si integrano in modo armonico per
+                                                    garantire soluzioni efficaci, coordinate e su
+                                                    misura.
+                                                </span>
+                                                <br />
+                                                <br />
+                                                <span>
+                                                    Dal 2010, con sede a Riva del Garda, lo studio
+                                                    riunisce un team di tecnici qualificati e
+                                                    specializzati nei diversi ambiti dell’edilizia, del
+                                                    territorio, della sicurezza, dell’ambiente e della
+                                                    consulenza, affiancati da una rete consolidata di
+                                                    collaboratori esterni. Questo approccio
+                                                    interdisciplinare permette di affrontare con rigore
+                                                    e visione sistemica ogni progetto, dalla
+                                                    progettazione alla direzione lavori, dalle pratiche
+                                                    catastali all’amministrazione condominiale, fino
+                                                    alla formazione tecnica e alla consulenza
+                                                    giudiziale.
+                                                </span>
+                                                <br />
+                                                <br />
+                                                <span>
+                                                    Scegliere StudioSfera significa affidarsi a un
+                                                    partner solido, competente e strutturato, in grado
+                                                    di accompagnare il cliente in ogni fase del
+                                                    percorso, con una prospettiva globale e
+                                                    un'attenzione costante alla qualità, all’innovazione
+                                                    e alla sostenibilità.
+                                                </span>
+                                                <br />
+                                                <br />
+                                            </span>
+                                        </fragment>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <gallery-studio-wrapper class="gallery-studio-wrapper">
+                        <!--GalleryStudio component-->
+                        <div class="gallery-studio-gallery3 thq-section-padding">
+                            <div class="gallery-studio-max-width thq-section-max-width">
+                                <div class="gallery-studio-content">
+                                    <div class="gallery-studio-container1">
+                                        <img alt="Image of our team working together"
+                                             src="public/Studio/img_8901-900w.jpg"
+                                             class="gallery-studio-image11 thq-img-ratio-1-1" />
+                                        <img alt="Image of our office space"
+                                             src="public/Studio/img_8915-900w.jpg"
+                                             class="gallery-studio-image21 thq-img-ratio-1-1" />
+                                    </div>
+                                    <div class="gallery-studio-container2">
+                                        <img alt="Image of a successful project completion"
+                                             src="public/Studio/img_8946-900w.jpg"
+                                             class="gallery-studio-image3 thq-img-ratio-4-3" />
+                                    </div>
+                                    <div class="gallery-studio-container3">
+                                        <img alt="Image of our team working together"
+                                             src="public/Studio/img_9010-900w.jpg"
+                                             class="gallery-studio-image12 thq-img-ratio-1-1" />
+                                        <img alt="Image of our office space"
+                                             src="public/Studio/img_9726-900w.jpg"
+                                             class="gallery-studio-image22 thq-img-ratio-1-1" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </gallery-studio-wrapper>
+                </div>
+            </lo-studio-wrapper>
+            <team-wrapper class="team-wrapper" rootclassname="teamundefined">
+                <!--Team component-->
+                <div id=""
+                     class="team-team12 thq-section-padding teamroot-class-name">
+                    <div class="team-max-width thq-section-max-width">
+                        <div class="team-section-title1">
+                            <div class="team-content10">
+                                <h2 class="team-text10 thq-heading-2">
+                                    <fragment class="studio-sfera-fragment19">
+                                        <span class="studio-sfera-text33">
+                                            Il nostro valore aggiunto: le persone
+                                        </span>
+                                    </fragment>
+                                </h2>
+                                <p class="team-text11 thq-body-large">
+                                    <fragment class="studio-sfera-fragment18">
+                                        <span class="studio-sfera-text32">
+                                            In StudioSfera crediamo che la qualità dei servizi nasca
+                                            prima di tutto dalle persone che li rendono possibili.
+                                            Il nostro team è composto da professionisti con
+                                            competenze tecniche eterogenee e complementari, che
+                                            collaborano quotidianamente per offrire soluzioni
+                                            integrate, efficaci e su misura.
+                                        </span>
+                                    </fragment>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="team-content11">
+                            <div class="team-content12">
+                                <div class="team-row">
+                                    <div class="team-card10">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_9029-500h.jpg"
+                                             class="thq-img-ratio-1-1 team-member-image1" />
+                                        <div class="team-content13">
+                                            <div class="team-title10">
+                                                <span class="team-text12 thq-body-small">
+                                                    <fragment class="studio-sfera-fragment17">
+                                                        <span class="studio-sfera-text31">
+                                                            Ivan Delvai
+                                                        </span>
+                                                    </fragment>
+                                                </span>
+                                                <span class="team-text13 thq-body-small">
+                                                    <fragment class="studio-sfera-fragment25">
+                                                        <span class="studio-sfera-text48">Geometra</span>
+                                                    </fragment>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="team-social-icons10">
+                                            <a href="mailto:delvai@studiosfera.eu?subject="
+                                               class="team-link1">
+                                                <svg width="24"
+                                                     height="24"
+                                                     viewBox="0 0 24 24"
+                                                     class="team-icon26">
+                                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                          fill="currentColor"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="team-card11">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_1621-500h.jpg"
+                                             class="thq-img-ratio-1-1 team-member-image2" />
+                                        <div class="team-content14">
+                                            <div class="team-title11">
+                                                <span class="team-text14 thq-body-small">
+                                                    <fragment class="studio-sfera-fragment21">
+                                                        <span class="studio-sfera-text35">
+                                                            Mariangela Montagni
+                                                        </span>
+                                                    </fragment>
+                                                </span>
+                                                <span class="team-text15 thq-body-small">
+                                                    <fragment class="studio-sfera-fragment27">
+                                                        <span class="studio-sfera-text50">
+                                                            Architetta
+                                                        </span>
+                                                    </fragment>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="team-social-icons11">
+                                            <a href="mailto:montagni@studiosfera.eu?subject="
+                                               class="team-link1">
+                                                <svg width="24"
+                                                     height="24"
+                                                     viewBox="0 0 24 24"
+                                                     class="team-icon26">
+                                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                          fill="currentColor"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="team-card12">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_9027-500h.jpg"
+                                             class="thq-img-ratio-1-1 team-member-image3" />
+                                        <div class="team-content15">
+                                            <div class="team-title12">
+                                                <span class="team-text16 thq-body-small">
+                                                    <fragment class="studio-sfera-fragment20">
+                                                        <span class="studio-sfera-text34">
+                                                            Denis Santoni
+                                                        </span>
+                                                    </fragment>
+                                                </span>
+                                                <span class="team-text17 thq-body-small">
+                                                    <fragment class="studio-sfera-fragment26">
+                                                        <span class="studio-sfera-text49">
+                                                            Geometra Laureato
+                                                        </span>
+                                                    </fragment>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="team-social-icons12">
+                                            <a href="mailto:santoni@studiosfera.eu?subject="
+                                               class="team-link1">
+                                                <svg width="24"
+                                                     height="24"
+                                                     viewBox="0 0 24 24"
+                                                     class="team-icon26">
+                                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                          fill="currentColor"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="team-card13">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_9025-500h.jpg"
+                                             class="thq-img-ratio-1-1 team-member-image4" />
+                                        <div class="team-content16">
+                                            <div class="team-title13">
+                                                <span class="team-text18 thq-body-small">
+                                                    <fragment class="studio-sfera-fragment24">
+                                                        <span class="studio-sfera-text47">
+                                                            Luca Sgarito
+                                                        </span>
+                                                    </fragment>
+                                                </span>
+                                                <span class="team-text19 thq-body-small">
+                                                    <fragment class="studio-sfera-fragment28">
+                                                        <span class="studio-sfera-text51">Ingegnere</span>
+                                                    </fragment>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="team-social-icons13">
+                                            <a href="mailto:sgarito@studiosfera.eu?subject="
+                                               class="team-link1">
+                                                <svg width="24"
+                                                     height="24"
+                                                     viewBox="0 0 24 24"
+                                                     class="team-icon26">
+                                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                          fill="currentColor"></path>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-section-title2">
+                                    <div class="team-content17">
+                                        <h2 class="team-text20 thq-heading-2">
+                                            <fragment class="studio-sfera-fragment23">
+                                                <span class="studio-sfera-text46">
+                                                    Dove le competenze si incontrano
+                                                </span>
+                                            </fragment>
+                                        </h2>
+                                        <p class="team-text21 thq-body-large">
+                                            <fragment class="studio-sfera-fragment22">
+                                                <span class="studio-sfera-text36">
+                                                    <span>
+                                                        Accanto ai soci fondatori, collaborano con noi
+                                                        tecnici qualificati e specialisti esterni che
+                                                        condividono la nostra visione e i nostri valori:
+                                                        rigore, etica professionale, attenzione al cliente
+                                                        e capacità di lavorare in sinergia.
+                                                    </span>
+                                                    <br />
+                                                    <br />
+                                                    <span>
+                                                        Architetti, ingegneri, geometri, amministratori,
+                                                        formatori e consulenti: ogni figura apporta un
+                                                        contributo unico all’interno di un approccio
+                                                        multidisciplinare che ci consente di affrontare
+                                                        ogni progetto nella sua interezza, con sguardo
+                                                        tecnico ma anche umano.
+                                                    </span>
+                                                    <br />
+                                                    <br />
+                                                    <span>
+                                                        In questa sezione puoi conoscere più da vicino chi
+                                                        lavora ogni giorno per trasformare la complessità
+                                                        dei tuoi progetti in soluzioni concrete.
+                                                    </span>
+                                                    <br />
+                                                    <br />
+                                                </span>
+                                            </fragment>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="team-content18" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; width: 100%;">
+                                    <div class="team-card14" style="flex: 0 0 auto; max-width: 200px;">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_9031-1400w.jpg"
+                                             class="team-placeholder-image1 thq-img-ratio-1-1 thq-img-round" />
+                                        <div class="team-content19">
+                                            <div class="team-title14">
+                                                <span class="team-text22 thq-body-small">
+                                                    Fabio Casciaro
+                                                </span>
+                                                <span class="team-text23 thq-body-small">
+                                                    Amministratore condominiale
+                                                </span>
+                                                <a href="mailto:amministrazioni@studiosfera.eu?subject="
+                                                   class="team-link1">
+                                                    <svg width="24"
+                                                         height="24"
+                                                         viewBox="0 0 24 24"
+                                                         class="team-icon26">
+                                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                              fill="currentColor"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-card15" style="flex: 0 0 auto; max-width: 200px;">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_9028-1400w.jpg"
+                                             class="team-placeholder-image2 thq-img-ratio-1-1 thq-img-round" />
+                                        <div class="team-content20">
+                                            <div class="team-title15">
+                                                <span class="team-text24 thq-body-small">
+                                                    Irene Casimiri
+                                                </span>
+                                                <span class="team-text25 thq-body-small">
+                                                    Ingegnere
+                                                </span>
+                                                <a href="mailto:casimiri@studiosfera.eu?subject="
+                                                   class="team-link2">
+                                                    <svg width="24"
+                                                         height="24"
+                                                         viewBox="0 0 24 24"
+                                                         class="team-icon28">
+                                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                              fill="currentColor"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-card16" style="flex: 0 0 auto; max-width: 200px;">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_1622-1400w.jpg"
+                                             class="team-placeholder-image3 thq-img-ratio-1-1 thq-img-round" />
+                                        <div class="team-content21">
+                                            <div class="team-title16">
+                                                <span class="team-text26 thq-body-small">
+                                                    Sara Chistè
+                                                </span>
+                                                <span class="team-text27 thq-body-small">
+                                                    Ingegnere
+                                                </span>
+                                                <a href="mailto:chiste@studiosfera.eu?subject="
+                                                   class="team-link3">
+                                                    <svg width="24"
+                                                         height="24"
+                                                         viewBox="0 0 24 24"
+                                                         class="team-icon30">
+                                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                              fill="currentColor"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-card17" style="flex: 0 0 auto; max-width: 200px;">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_9026-1400w.jpg"
+                                             class="team-placeholder-image4 thq-img-ratio-1-1 thq-img-round" />
+                                        <div class="team-content22">
+                                            <div class="team-title17">
+                                                <span class="team-text28 thq-body-small">
+                                                    Michela Gobbi
+                                                </span>
+                                                <span class="team-text29 thq-body-small">
+                                                    Ingegnere
+                                                </span>
+                                                <a href="mailto:gobbi@studiosfera.eu?subject="
+                                                   class="team-link4">
+                                                    <svg width="24"
+                                                         height="24"
+                                                         viewBox="0 0 24 24"
+                                                         class="team-icon32">
+                                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                              fill="currentColor"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-card18" style="flex: 0 0 auto; max-width: 200px;">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_9024-1400w.jpg"
+                                             class="team-placeholder-image5 thq-img-ratio-1-1 thq-img-round" />
+                                        <div class="team-content23">
+                                            <div class="team-title18">
+                                                <span class="team-text30 thq-body-small">
+                                                    Anna Piva
+                                                </span>
+                                                <span class="team-text31 thq-body-small">
+                                                    Gestione amministrativa
+                                                </span>
+                                                <a href="mailto:	 gestione@studiosfera.eu?subject="
+                                                   class="team-link5">
+                                                    <svg width="24"
+                                                         height="24"
+                                                         viewBox="0 0 24 24"
+                                                         class="team-icon34">
+                                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                              fill="currentColor"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-card19" style="flex: 0 0 auto; max-width: 200px;">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_9030-1400w.jpg"
+                                             class="team-placeholder-image6 thq-img-ratio-1-1 thq-img-round" />
+                                        <div class="team-content24">
+                                            <div class="team-title19">
+                                                <span class="team-text32 thq-body-small">
+                                                    Giulia Ruperto
+                                                </span>
+                                                <span class="team-text33 thq-body-small">
+                                                    Architetta
+                                                </span>
+                                                <a href="mailto:ruperto@studiosfera.eu?subject="
+                                                   class="team-link6">
+                                                    <svg width="24"
+                                                         height="24"
+                                                         viewBox="0 0 24 24"
+                                                         class="team-icon36">
+                                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                              fill="currentColor"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-card20" style="flex: 0 0 auto; max-width: 200px;">
+                                        <img alt="Image of John Doe"
+                                             src="public/Team/img_8665%20(1)-1400w.jpg"
+                                             class="team-placeholder-image7 thq-img-ratio-1-1 thq-img-round" />
+                                        <div class="team-content25">
+                                            <div class="team-title20">
+                                                <span class="team-text34 thq-body-small">
+                                                    Melissa Zanelli
+                                                </span>
+                                                <span class="team-text35 thq-body-small">
+                                                    Geometra
+                                                </span>
+                                                <a href="mailto:zaninelli@studiosfera.eu?subject="
+                                                   class="team-link7">
+                                                    <svg width="24"
+                                                         height="24"
+                                                         viewBox="0 0 24 24"
+                                                         class="team-icon38">
+                                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z"
+                                                              fill="currentColor"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </team-wrapper>
+            <documenti-wrapper class="documenti-wrapper">
+                <!--Documenti component-->
+                <div id="Documenti" class="documenti-container thq-section-padding">
+                    <div class="documenti-max-width thq-section-max-width">
+                        <div class="documenti-content thq-flex-column">
+                            <ul class="documenti-ul thq-flex-column">
+                                <li class="documenti-li1 thq-flex-column list-item">
+                                    <h2 class="documenti-heading1 thq-heading-2">
+                                        <fragment class="studio-sfera-fragment34">
+                                            <span class="studio-sfera-text66">Documenti</span>
+                                        </fragment>
+                                    </h2>
+                                    <p class="thq-body-small">
+                                        <fragment class="studio-sfera-fragment30">
+                                            <span class="studio-sfera-text53">
+                                                Qui trovi i documenti che raccontano chi siamo, come
+                                                lavoriamo e quali valori guidano ogni nostra attività.
+                                                Abbiamo scelto di condividerli in modo trasparente,
+                                                perché crediamo nella fiducia e nella responsabilità,
+                                                dentro e fuori dallo Studio.
+                                            </span>
+                                        </fragment>
+                                    </p>
+                                    <a href="public/documents/StudioSfera-Codice-Etico.pdf"
+                                       target="_blank"
+                                       rel="noreferrer noopener">
+                                        <fragment class="studio-sfera-fragment29">
+                                                <span class="studio-sfera-text52">
+                                                    Scarica il codice Etico
+                                                </span>
+                                        </fragment>
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <h3 class="documenti-heading2 thq-heading-3">
+                                        <fragment class="studio-sfera-fragment35">
+                                            <span class="studio-sfera-text67">
+                                                Il nostro Codice Etico: come lavoriamo, ogni giorno
+                                            </span>
+                                        </fragment>
+                                    </h3>
+                                    <p class="documenti-content2 thq-body-small">
+                                        <fragment class="studio-sfera-fragment31">
+                                            <span class="studio-sfera-text54">
+                                                <span>
+                                                    Il Codice Etico di StudioSfera è molto più di un
+                                                    insieme di regole: è il cuore della nostra identità
+                                                    professionale. In queste pagine raccontiamo i valori
+                                                    che ispirano ogni nostra scelta – dal rispetto per
+                                                    il cliente alla correttezza nei rapporti di lavoro,
+                                                    dalla trasparenza alla sostenibilità ambientale.
+                                                </span>
+                                                <br />
+                                                <br />
+                                                <span>
+                                                    Per noi è importante lavorare in modo leale,
+                                                    inclusivo e professionale, tutelando il benessere
+                                                    delle persone e promuovendo un ambiente
+                                                    collaborativo, stimolante e rispettoso delle
+                                                    differenze. Siamo convinti che l’etica non sia un
+                                                    vincolo, ma una risorsa: ci aiuta a costruire
+                                                    relazioni solide, a fare squadra, a garantire
+                                                    qualità e continuità nei servizi.
+                                                </span>
+                                                <br />
+                                                <br />
+                                                <span>
+                                                    Nel Codice troverai anche il nostro impegno concreto
+                                                    verso la legalità, la formazione continua, la
+                                                    conciliazione tra vita lavorativa e personale, il
+                                                    contrasto alla corruzione e la promozione di
+                                                    comportamenti sostenibili. Ogni collaboratore e ogni
+                                                    professionista che lavora con noi è chiamato a
+                                                    condividerne i principi.
+                                                </span>
+                                                <br />
+                                                <br />
+                                            </span>
+                                        </fragment>
+                                    </p>
+                                </li>
+                                <li class="list-item">
+                                    <h3 class="documenti-heading3 thq-heading-3">
+                                        <fragment class="studio-sfera-fragment36">
+                                            <span class="studio-sfera-text68">
+                                                Informativa GDPR StudioSfera
+                                            </span>
+                                        </fragment>
+                                    </h3>
+                                    <p class="documenti-content3 thq-body-small">
+                                        <fragment class="studio-sfera-fragment32">
+                                            <a href="public/documents/Informativa_Privacy_V1.2_StudioSferaStudioAssociato.pdf" target="_blank">
+                                                <span class="studio-sfera-text64">
+                                                    Scarica qui il file
+                                                </span>
+                                            </a>
+                                        </fragment>
+                                    </p>
+                                </li>
+                                <li class="list-item">
+                                    <h3 class="documenti-heading4 thq-heading-3">
+                                        <fragment class="studio-sfera-fragment37">
+                                            <span class="studio-sfera-text69">
+                                                Informativa GDPR Sfera Immobiliare
+                                            </span>
+                                        </fragment>
+                                    </h3>
+                                    <p class="documenti-content4 thq-body-small">
+                                        <fragment class="studio-sfera-fragment33">
+                                            <a href="public/documents/Informativa_Privacy_V1.2_SferaImmobiliare.pdf" target="_blank">
+                                                <span class="studio-sfera-text65">
+                                                    Scarica qui il file
+                                                </span>
+                                            </a>
+                                        </fragment>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </documenti-wrapper>
+            <footer-wrapper class="footer-wrapper" rootclassname="footerundefined">
+                <!--Footer component-->
+                <footer class="footer-footer4 thq-section-padding footerroot-class-name3">
+                    <div class="footer-max-width thq-section-max-width">
+                        <div class="footer-credits">
+                            <div class="thq-divider-horizontal"></div>
+                            <div class="footer-row">
+                                <div class="footer-footer-links">
+                                    <span class="footer-content3 thq-body-small">
+                                        © 2025 Michele Alberti
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </footer-wrapper>
+        </div>
+    </div>
+    <script defer=""
+            src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+</body>
+</html>

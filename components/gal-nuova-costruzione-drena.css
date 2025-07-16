@@ -1,0 +1,139 @@
+.gal-nuova-costruzione-drena-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gal-nuova-costruzione-drena-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gal-nuova-costruzione-drena-section-title {
+  gap: 24px;
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-nuova-costruzione-drena-text1 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.gal-nuova-costruzione-drena-container {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.gal-nuova-costruzione-drena-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-nuova-costruzione-drena-slider {
+  width: 100%;
+  height: 770px;
+  display: inline-block;
+}
+ 
+.gal-nuova-costruzione-drena-slider-slide1 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-nuova-costruzione-drena-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-nuova-costruzione-drena-slider-slide2 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-nuova-costruzione-drena-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-nuova-costruzione-drena-slider-slide3 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-nuova-costruzione-drena-image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-nuova-costruzione-drena-slider-slide4 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-nuova-costruzione-drena-image4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-nuova-costruzione-drena-slider-pagination {
+  display: block;
+}
+ 
+.gal-nuova-costruzione-drena-fragment {
+  display: contents;
+}
+ 
+.gal-nuova-costruzione-drena-text2 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .gal-nuova-costruzione-drena-content {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .gal-nuova-costruzione-drena-section-title {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .gal-nuova-costruzione-drena-slider {
+    height: 550px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .gal-nuova-costruzione-drena-slider {
+    height: 440px;
+  }
+}

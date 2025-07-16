@@ -1,0 +1,202 @@
+.content-servizi-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.content-servizi-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-layout-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.content-servizi-content {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.content-servizi-ul1 {
+  align-items: flex-start;
+}
+ 
+.content-servizi-li10 {
+  align-items: flex-start;
+  font-family: "Aptos";
+}
+ 
+.content-servizi-heading7 {
+  align-self: center;
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.content-servizi-content7 {
+  font-family: "Aptos";
+  margin-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.content-servizi-ul2 {
+  align-items: flex-start;
+  padding-left: var(--dl-layout-space-fiveunits);
+}
+ 
+.content-servizi-fragment10 {
+  display: contents;
+}
+ 
+.content-servizi-text10 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment11 {
+  display: contents;
+}
+ 
+.content-servizi-text11 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment12 {
+  display: contents;
+}
+ 
+.content-servizi-text12 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment13 {
+  display: contents;
+}
+ 
+.content-servizi-text13 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment14 {
+  display: contents;
+}
+ 
+.content-servizi-text14 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment15 {
+  display: contents;
+}
+ 
+.content-servizi-text15 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment16 {
+  display: contents;
+}
+ 
+.content-servizi-text16 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment17 {
+  display: contents;
+}
+ 
+.content-servizi-text17 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment18 {
+  display: contents;
+}
+ 
+.content-servizi-text18 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment19 {
+  display: contents;
+}
+ 
+.content-servizi-text19 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment20 {
+  display: contents;
+}
+ 
+.content-servizi-text20 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment21 {
+  display: contents;
+}
+ 
+.content-servizi-text21 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment22 {
+  display: contents;
+}
+ 
+.content-servizi-text22 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment23 {
+  display: contents;
+}
+ 
+.content-servizi-text23 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment24 {
+  display: contents;
+}
+ 
+.content-servizi-text24 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment25 {
+  display: contents;
+}
+ 
+.content-servizi-text25 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment26 {
+  display: contents;
+}
+ 
+.content-servizi-text26 {
+  display: inline-block;
+}
+ 
+.content-servizi-fragment27 {
+  display: contents;
+}
+ 
+.content-servizi-text27 {
+  display: inline-block;
+}
+ 
+@media(max-width: 767px) {
+  .content-servizi-ul2 {
+    padding-left: var(--dl-layout-space-threeunits);
+  }
+}
+ 
+@media(max-width: 479px) {
+  .content-servizi-ul2 {
+    padding-left: var(--dl-layout-space-oneandhalfunits);
+  }
+}

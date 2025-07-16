@@ -1,0 +1,1002 @@
+.nav-bar-wrapper {
+  display: contents;
+}
+ 
+.nav-bar-container1 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+ 
+.nav-bar-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: var(--dl-layout-space-threeunits);
+  padding-right: var(--dl-layout-space-threeunits);
+  padding-bottom: var(--dl-layout-space-twounits);
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+ 
+.nav-bar-image {
+  width: 200px;
+  object-fit: cover;
+}
+ 
+.nav-bar-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+ 
+.nav-bar-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.nav-bar-links1 {
+  gap: var(--dl-layout-space-twounits);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+ 
+.nav-bar-link11 {
+  font-size: 21px;
+  text-decoration: none;
+}
+ 
+.nav-bar-link21 {
+  font-size: 21px;
+  text-decoration: none;
+}
+ 
+.nav-bar-link31 {
+  font-size: 21px;
+  text-decoration: none;
+}
+ 
+.nav-bar-link41 {
+  font-size: 21px;
+  text-decoration: none;
+}
+ 
+.nav-bar-link51 {
+  font-size: 21px;
+  text-decoration: none;
+}
+ 
+.nav-bar-burger-menu {
+  display: none;
+}
+ 
+.nav-bar-icon10 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.nav-bar-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: var(--dl-layout-space-twounits);
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+ 
+.nav-bar-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.nav-bar-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-threeunits);
+  justify-content: space-between;
+}
+ 
+.nav-bar-logo {
+  height: 3rem;
+}
+ 
+.nav-bar-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.nav-bar-icon12 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.nav-bar-links2 {
+  gap: var(--dl-layout-space-unit);
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.nav-bar-icon-group {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+}
+ 
+.contacts-fragment10 {
+  display: contents;
+}
+ 
+.contacts-text10 {
+  display: inline-block;
+}
+ 
+.contacts-fragment11 {
+  display: contents;
+}
+ 
+.contacts-text11 {
+  display: inline-block;
+}
+ 
+.contacts-fragment12 {
+  display: contents;
+}
+ 
+.contacts-text12 {
+  display: inline-block;
+}
+ 
+.contacts-fragment13 {
+  display: contents;
+}
+ 
+.contacts-text15 {
+  display: inline-block;
+}
+ 
+.contacts-fragment14 {
+  display: contents;
+}
+ 
+.contacts-text16 {
+  display: inline-block;
+}
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+@media(max-width: 767px) {
+  .nav-bar-navbar-interactive {
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+  }
+  .nav-bar-desktop-menu {
+    display: none;
+  }
+  .nav-bar-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .nav-bar-navbar-interactive {
+    padding: var(--dl-layout-space-unit);
+    padding-right: 16px;
+  }
+  .nav-bar-mobile-menu {
+    padding: var(--dl-layout-space-unit);
+  }
+}
+
+.sede-e-contatti-wrapper {
+  display: contents;
+}
+ 
+.sede-e-contatti-contact11 {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+}
+ 
+.sede-e-contatti-max-width {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.sede-e-contatti-section-title {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  flex-direction: column;
+}
+ 
+.sede-e-contatti-content1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.sede-e-contatti-text10 {
+  font-family: "Aptos";
+}
+ 
+.sede-e-contatti-text11 {
+  font-family: "Aptos";
+}
+ 
+.sede-e-contatti-content2 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.sede-e-contatti-content3 {
+  width: 1037px;
+  align-items: stretch;
+}
+ 
+.sede-e-contatti-row1 {
+  align-items: flex-start;
+}
+ 
+.sede-e-contatti-icon1 {
+  width: 32px;
+  height: 32px;
+}
+ 
+.sede-e-contatti-contact-info1 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.sede-e-contatti-text12 {
+  font-family: "Aptos";
+}
+ 
+.sede-e-contatti-email1 {
+  font-family: "Aptos";
+}
+ 
+.sede-e-contatti-icon3 {
+  width: 55px;
+  height: 34px;
+}
+ 
+.sede-e-contatti-contact-info2 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.sede-e-contatti-text13 {
+  font-family: "Aptos";
+}
+ 
+.sede-e-contatti-email2 {
+  font-family: "Aptos";
+}
+ 
+.sede-e-contatti-icon5 {
+  width: 42px;
+  height: 35px;
+}
+ 
+.sede-e-contatti-contact-info3 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.sede-e-contatti-text14 {
+  font-family: "Aptos";
+}
+ 
+.sede-e-contatti-phone {
+  font-family: "Aptos";
+}
+ 
+.sede-e-contatti-icon7 {
+  width: 32px;
+  height: 32px;
+}
+ 
+.sede-e-contatti-contact-info4 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.sede-e-contatti-text15 {
+  font-family: "Aptos";
+}
+ 
+.sede-e-contatti-address {
+  font-family: "Aptos";
+}
+ 
+.sede-e-contatti-iframe {
+  width: 973px;
+  height: auto;
+  min-height: 450px;
+  object-fit: cover;
+}
+ 
+.contacts-fragment15 {
+  display: contents;
+}
+ 
+.contacts-text17 {
+  display: inline-block;
+}
+ 
+.contacts-fragment16 {
+  display: contents;
+}
+ 
+.contacts-text18 {
+  display: inline-block;
+}
+ 
+.contacts-fragment17 {
+  display: contents;
+}
+ 
+.contacts-text19 {
+  display: inline-block;
+}
+ 
+.contacts-fragment18 {
+  display: contents;
+}
+ 
+.contacts-text20 {
+  display: inline-block;
+}
+ 
+.contacts-fragment19 {
+  display: contents;
+}
+ 
+.contacts-text21 {
+  display: inline-block;
+}
+ 
+.contacts-fragment20 {
+  display: contents;
+}
+ 
+.contacts-text22 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .sede-e-contatti-content3 {
+    width: 50%;
+  }
+  .sede-e-contatti-row1 {
+    flex-direction: column;
+  }
+  .sede-e-contatti-content4 {
+    width: 50%;
+  }
+  .sede-e-contatti-contact-info1 {
+    width: 50%;
+  }
+  .sede-e-contatti-content5 {
+    width: 50%;
+  }
+  .sede-e-contatti-contact-info2 {
+    width: 50%;
+  }
+  .sede-e-contatti-content6 {
+    width: 50%;
+  }
+  .sede-e-contatti-row2 {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .sede-e-contatti-row2 {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .sede-e-contatti-content2 {
+    flex-direction: column;
+  }
+  .sede-e-contatti-content3 {
+    width: 100%;
+  }
+  .sede-e-contatti-row1 {
+    flex-direction: column;
+  }
+  .sede-e-contatti-content4 {
+    width: 100%;
+  }
+  .sede-e-contatti-content5 {
+    width: 100%;
+  }
+  .sede-e-contatti-content6 {
+    width: 100%;
+  }
+  .sede-e-contatti-row2 {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+
+.banner1-wrapper {
+  display: contents;
+}
+ 
+.banner1-container1 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+ 
+.banner1-max-width {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner1-container2 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner1-title {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.banner1-text1 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.opportunita-fragment11 {
+  display: contents;
+}
+ 
+.opportunita-text11 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment10 {
+  display: contents;
+}
+ 
+.opportunita-text10 {
+  display: inline-block;
+}
+
+.hero8-wrapper {
+  display: contents;
+}
+ 
+.hero8-header26 {
+  gap: var(--dl-layout-space-twounits);
+}
+ 
+.hero8-max-width {
+  align-self: center;
+}
+ 
+.hero8-column {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.hero8-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.hero8-text10 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.hero8-text11 {
+  text-align: left;
+  font-family: "Aptos";
+}
+ 
+.hero8-actions {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.hero8-button {
+  text-decoration: none;
+}
+ 
+.hero8-text12 {
+  font-family: "Aptos";
+}
+ 
+.contacts-fragment21 {
+  display: contents;
+}
+ 
+.contacts-text23 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.contacts-fragment22 {
+  display: contents;
+}
+ 
+.contacts-text24 {
+  display: inline-block;
+}
+ 
+.contacts-fragment23 {
+  display: contents;
+}
+ 
+.contacts-text31 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.contacts-fragment24 {
+  display: contents;
+}
+ 
+.contacts-text32 {
+  display: inline-block;
+}
+ 
+.contacts-fragment25 {
+  display: contents;
+}
+ 
+.contacts-text39 {
+  display: inline-block;
+}
+ 
+.contacts-fragment26 {
+  display: contents;
+}
+ 
+.contacts-text40 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment13 {
+  display: contents;
+}
+ 
+.opportunita-text19 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment12 {
+  display: contents;
+}
+ 
+.opportunita-text18 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment14 {
+  display: contents;
+}
+ 
+.opportunita-text41 {
+  display: inline-block;
+}
+ 
+@media(max-width: 479px) {
+  .hero8-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero8-button {
+    width: 100%;
+  }
+}
+
+.opportunita-wrapper {
+  display: contents;
+}
+ 
+.opportunita-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.opportunita-fragment10 {
+  display: contents;
+}
+ 
+.opportunita-text10 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment11 {
+  display: contents;
+}
+ 
+.opportunita-text11 {
+  display: inline-block;
+}
+ 
+.opportunita-max-width {
+  display: flex;
+  align-items: center;
+}
+ 
+.opportunita-container1 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary1);
+}
+ 
+.opportunita-text12 {
+  font-family: "Aptos";
+}
+ 
+.opportunita-text13 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.opportunita-container2 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary2);
+}
+ 
+.opportunita-text14 {
+  color: #ffffff;
+  font-family: "Aptos";
+}
+ 
+.opportunita-text15 {
+  color: #fdfdfd;
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.opportunita-container3 {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary1);
+}
+ 
+.opportunita-text16 {
+  font-family: "Aptos";
+}
+ 
+.opportunita-text17 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.opportunita-fragment12 {
+  display: contents;
+}
+ 
+.opportunita-text18 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment13 {
+  display: contents;
+}
+ 
+.opportunita-text19 {
+  display: inline-block;
+}
+ 
+.opportunita-fragment14 {
+  display: contents;
+}
+ 
+.opportunita-text41 {
+  display: inline-block;
+}
+ 
+.contacts-fragment21 {
+  display: contents;
+}
+ 
+.contacts-text23 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.contacts-fragment22 {
+  display: contents;
+}
+ 
+.contacts-text24 {
+  display: inline-block;
+}
+ 
+.contacts-fragment23 {
+  display: contents;
+}
+ 
+.contacts-text31 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.contacts-fragment24 {
+  display: contents;
+}
+ 
+.contacts-text32 {
+  display: inline-block;
+}
+ 
+.contacts-fragment25 {
+  display: contents;
+}
+ 
+.contacts-text39 {
+  display: inline-block;
+}
+ 
+.contacts-fragment26 {
+  display: contents;
+}
+ 
+.contacts-text40 {
+  display: inline-block;
+}
+ 
+
+ 
+
+ 
+@media(max-width: 991px) {
+  .opportunita-max-width {
+    gap: var(--dl-layout-space-twounits);
+    flex-direction: column-reverse;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .opportunita-container1 {
+    width: 100%;
+  }
+  .opportunita-container2 {
+    width: 100%;
+  }
+  .opportunita-container3 {
+    width: 100%;
+  }
+}
+
+.contacts-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.contacts-fragment10 {
+  display: contents;
+}
+ 
+.contacts-text10 {
+  display: inline-block;
+}
+ 
+.contacts-fragment11 {
+  display: contents;
+}
+ 
+.contacts-text11 {
+  display: inline-block;
+}
+ 
+.contacts-fragment12 {
+  display: contents;
+}
+ 
+.contacts-text12 {
+  display: inline-block;
+}
+ 
+.contacts-fragment13 {
+  display: contents;
+}
+ 
+.contacts-text15 {
+  display: inline-block;
+}
+ 
+.contacts-fragment14 {
+  display: contents;
+}
+ 
+.contacts-text16 {
+  display: inline-block;
+}
+ 
+.contacts-fragment15 {
+  display: contents;
+}
+ 
+.contacts-text17 {
+  display: inline-block;
+}
+ 
+.contacts-fragment16 {
+  display: contents;
+}
+ 
+.contacts-text18 {
+  display: inline-block;
+}
+ 
+.contacts-fragment17 {
+  display: contents;
+}
+ 
+.contacts-text19 {
+  display: inline-block;
+}
+ 
+.contacts-fragment18 {
+  display: contents;
+}
+ 
+.contacts-text20 {
+  display: inline-block;
+}
+ 
+.contacts-fragment19 {
+  display: contents;
+}
+ 
+.contacts-text21 {
+  display: inline-block;
+}
+ 
+.contacts-fragment20 {
+  display: contents;
+}
+ 
+.contacts-text22 {
+  display: inline-block;
+}
+ 
+.contacts-fragment21 {
+  display: contents;
+}
+ 
+.contacts-text23 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.contacts-fragment22 {
+  display: contents;
+}
+ 
+.contacts-text24 {
+  display: inline-block;
+}
+ 
+.contacts-fragment23 {
+  display: contents;
+}
+ 
+.contacts-text31 {
+  color: var(--dl-color-theme-secondary1);
+  display: inline-block;
+}
+ 
+.contacts-fragment24 {
+  display: contents;
+}
+ 
+.contacts-text32 {
+  display: inline-block;
+}
+ 
+.contacts-fragment25 {
+  display: contents;
+}
+ 
+.contacts-text39 {
+  display: inline-block;
+}
+ 
+.contacts-fragment26 {
+  display: contents;
+}
+ 
+.contacts-text40 {
+  display: inline-block;
+}

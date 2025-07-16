@@ -1,0 +1,139 @@
+.gal-arco-ristrutturazoine-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gal-arco-ristrutturazoine-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gal-arco-ristrutturazoine-section-title {
+  gap: 24px;
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-arco-ristrutturazoine-text1 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.gal-arco-ristrutturazoine-container {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.gal-arco-ristrutturazoine-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-arco-ristrutturazoine-slider {
+  width: 100%;
+  height: 770px;
+  display: inline-block;
+}
+ 
+.gal-arco-ristrutturazoine-slider-slide1 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-arco-ristrutturazoine-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-arco-ristrutturazoine-slider-slide2 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-arco-ristrutturazoine-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-arco-ristrutturazoine-slider-slide3 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-arco-ristrutturazoine-image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-arco-ristrutturazoine-slider-slide4 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-arco-ristrutturazoine-image4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-arco-ristrutturazoine-slider-pagination {
+  display: block;
+}
+ 
+.gal-arco-ristrutturazoine-fragment {
+  display: contents;
+}
+ 
+.gal-arco-ristrutturazoine-text2 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .gal-arco-ristrutturazoine-content {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .gal-arco-ristrutturazoine-section-title {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .gal-arco-ristrutturazoine-slider {
+    height: 550px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .gal-arco-ristrutturazoine-slider {
+    height: 440px;
+  }
+}

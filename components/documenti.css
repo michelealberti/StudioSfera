@@ -1,8 +1,4 @@
-.content-list1-wrapper {
-  display: contents;
-}
- 
-.content-list1-container {
+.documenti-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -11,7 +7,7 @@
   flex-direction: column;
 }
  
-.content-list1-max-width {
+.documenti-max-width {
   width: 100%;
   display: flex;
   max-width: var(--dl-layout-size-maxwidth);
@@ -19,102 +15,45 @@
   flex-direction: column;
 }
  
-.content-list1-content {
+.documenti-content {
   align-self: stretch;
   align-items: flex-start;
 }
  
-.content-list1-ul {
+.documenti-ul {
   align-items: flex-start;
 }
  
-.content-list1-heading1 {
+.documenti-li1 {
+  font-family: "Aptos";
+}
+ 
+.documenti-heading1 {
   align-self: flex-start;
 }
  
-.documenti-fragment4 {
-  display: contents;
+.documenti-heading2 {
+  font-family: "Aptos";
 }
  
-.documenti-text22 {
-  display: inline-block;
+.documenti-content2 {
+  font-family: "Aptos";
 }
  
-.documenti-fragment5 {
-  display: contents;
+.documenti-heading3 {
+  font-family: "Aptos";
 }
  
-.documenti-text23 {
-  display: inline-block;
+.documenti-content3 {
+  font-family: "Aptos";
 }
  
-.documenti-fragment3 {
-  display: contents;
+.documenti-heading4 {
+  font-family: "Aptos";
 }
  
-.documenti-text21 {
-  display: inline-block;
-}
- 
-.documenti-fragment1 {
-  display: contents;
-}
- 
-.documenti-text10 {
-  display: inline-block;
-}
- 
-.documenti-fragment6 {
-  display: contents;
-}
- 
-.documenti-text24 {
-  display: inline-block;
-}
- 
-.documenti-fragment7 {
-  display: contents;
-}
- 
-.documenti-text25 {
-  display: inline-block;
-}
- 
-.documenti-fragment8 {
-  display: contents;
-}
- 
-.documenti-text26 {
-  display: inline-block;
-}
- 
-.documenti-fragment2 {
-  display: contents;
-}
- 
-.documenti-text11 {
-  display: inline-block;
-}
- 
-
- 
-@media(max-width: 479px) {
-  .content-list1-container {
-    width: auto;
-  }
-  .content-list1root-class-name {
-    width: auto;
-  }
-}
-
-.documenti-container {
-  width: 100%;
-  height: 678px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
+.documenti-content4 {
+  font-family: "Aptos";
 }
  
 .documenti-fragment1 {
@@ -137,7 +76,7 @@
   display: contents;
 }
  
-.documenti-text21 {
+.documenti-text12 {
   display: inline-block;
 }
  
@@ -145,7 +84,7 @@
   display: contents;
 }
  
-.documenti-text22 {
+.documenti-text13 {
   display: inline-block;
 }
  
@@ -181,10 +120,26 @@
   display: inline-block;
 }
  
-
+.documenti-fragment9 {
+  display: contents;
+}
  
-@media(max-width: 479px) {
+.documenti-text27 {
+  display: inline-block;
+}
+@media (max-width: 768px) {
   .documenti-container {
-    height: 983px;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .documenti-max-width {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .documenti-content {
+    align-items: center;
+    text-align: center;
   }
 }

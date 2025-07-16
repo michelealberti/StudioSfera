@@ -1,0 +1,128 @@
+.gal-modelazioni3d-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gal-modelazioni3d-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gal-modelazioni3d-section-title {
+  gap: 24px;
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-modelazioni3d-text1 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.gal-modelazioni3d-container {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.gal-modelazioni3d-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-modelazioni3d-slider {
+  width: 100%;
+  height: 770px;
+  display: inline-block;
+}
+ 
+.gal-modelazioni3d-slider-slide1 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-modelazioni3d-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-modelazioni3d-slider-slide2 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-modelazioni3d-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-modelazioni3d-slider-slide3 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-modelazioni3d-image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-modelazioni3d-slider-pagination {
+  display: block;
+}
+ 
+.gal-modelazioni3d-fragment {
+  display: contents;
+}
+ 
+.gal-modelazioni3d-text2 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .gal-modelazioni3d-content {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .gal-modelazioni3d-section-title {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .gal-modelazioni3d-slider {
+    height: 550px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .gal-modelazioni3d-slider {
+    height: 440px;
+  }
+}

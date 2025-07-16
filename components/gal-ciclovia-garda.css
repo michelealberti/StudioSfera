@@ -1,0 +1,192 @@
+.gal-ciclovia-garda-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-garda-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.gal-ciclovia-garda-section-title {
+  gap: 24px;
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.gal-ciclovia-garda-text1 {
+  text-align: center;
+  font-family: "Aptos";
+}
+ 
+.gal-ciclovia-garda-container {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.gal-ciclovia-garda-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.gal-ciclovia-garda-slider {
+  width: 100%;
+  height: 770px;
+  display: inline-block;
+}
+ 
+.gal-ciclovia-garda-slider-slide1 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-ciclovia-garda-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-ciclovia-garda-slider-slide2 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-ciclovia-garda-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-ciclovia-garda-slider-slide3 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-ciclovia-garda-image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-ciclovia-garda-slider-slide4 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-ciclovia-garda-image4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-ciclovia-garda-slider-slide5 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-ciclovia-garda-image5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-ciclovia-garda-slider-slide6 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-ciclovia-garda-image6 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-ciclovia-garda-slider-slide7 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-ciclovia-garda-image7 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-ciclovia-garda-slider-slide8 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-ciclovia-garda-image8 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-ciclovia-garda-slider-slide9 {
+  height: calc(100% - 20px);
+  display: flex;
+}
+ 
+.gal-ciclovia-garda-image9 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.gal-ciclovia-garda-slider-pagination {
+  display: block;
+}
+ 
+.gal-ciclovia-garda-fragment {
+  display: contents;
+}
+ 
+.gal-ciclovia-garda-text2 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .gal-ciclovia-garda-content {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .gal-ciclovia-garda-section-title {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  .gal-ciclovia-garda-slider {
+    height: 550px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .gal-ciclovia-garda-slider {
+    height: 440px;
+  }
+}
